@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "gravewright-translator"
 version = "0.1.0"
-description = "Translator: installation-wide interface language catalogs for Gravewright VTT"
+description = "Translator: extensible translation engine for Gravewright VTT"
 requires-python = ">=3.12"
 dependencies = ["Django>=5.2"]
 license = "MIT"

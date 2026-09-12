@@ -2,7 +2,7 @@
   "id": "gravewright.translator",
   "name": "Translator",
   "version": "0.1.0",
-  "description": "English, Brazilian Portuguese and Spanish throughout the VTT. Activate in Installed modules, then choose your language in account settings.",
+  "description": "Extensible translation engine for Gravewright VTT. Centralizes interface translations in language catalogs and lets each user choose their language in account settings.",
   "author": "Gravewright",
   "license": "MIT",
   "sdk": {"requires": ">=1.0.0 <2.0.0", "tested": "1.0.0"},

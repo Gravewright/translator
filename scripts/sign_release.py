@@ -12,7 +12,7 @@ parser.add_argument('--tag',action='append',help='Creator-defined category; repe
 args=parser.parse_args()
 key=load_pem_private_key(args.key.read_bytes(),password=None)
 record={'id':'gravewright.translator','name':'Translator','version':'0.1.0',
-        'description':'Installation-wide English, Brazilian Portuguese and Spanish language options.',
+        'description':'Extensible translation engine for Gravewright VTT. Centralizes interface translations in language catalogs and lets each user choose their language in account settings.',
         'sdk':'>=1.0.0 <2.0.0', 'type':'module',
         'tags':args.tag or ['Tradução', 'Idiomas', 'Interface'],
         'download':'https://github.com/Gravewright/translator/releases/download/v0.1.0/translator-0.1.0.zip',
