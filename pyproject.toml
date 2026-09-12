@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gravewright-translator"
+version = "0.1.0"
+description = "Translator: installation-wide interface language catalogs for Gravewright VTT"
+requires-python = ">=3.12"
+dependencies = ["Django>=5.2"]
+license = "MIT"
+readme = "README.md"
+
+[tool.setuptools.packages.find]
+include = ["gravewright_translator*"]
+
+[tool.setuptools.package-data]
+gravewright_translator = ["catalogs/*.json", "package/*", "LICENSE.txt"]

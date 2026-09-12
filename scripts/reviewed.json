@@ -1,0 +1,1438 @@
+{
+  "Settings": [
+    "Configurações",
+    "Configuración"
+  ],
+  "Interface language": [
+    "Idioma da interface",
+    "Idioma de la interfaz"
+  ],
+  "Save language": [
+    "Salvar idioma",
+    "Guardar idioma"
+  ],
+  "This preference applies to your account throughout the VTT.": [
+    "Esta preferência se aplica à sua conta em todo o VTT.",
+    "Esta preferencia se aplica a tu cuenta en todo el VTT."
+  ],
+  "Your account and personal presentation.": [
+    "Sua conta e suas informações pessoais.",
+    "Tu cuenta y tu información personal."
+  ],
+  "Activate languages": [
+    "Ativar idiomas",
+    "Activar idiomas"
+  ],
+  "Deactivate languages": [
+    "Desativar idiomas",
+    "Desactivar idiomas"
+  ],
+  "Active for this installation": [
+    "Ativo nesta instalação",
+    "Activo en esta instalación"
+  ],
+  "Installed modules": [
+    "Módulos instalados",
+    "Módulos instalados"
+  ],
+  "Translator": [
+    "Translator",
+    "Translator"
+  ],
+  "Gravewright": [
+    "Gravewright",
+    "Gravewright"
+  ],
+  "Gravewright VTT": [
+    "Gravewright VTT",
+    "Gravewright VTT"
+  ],
+  "Gravewright Core": [
+    "Gravewright Core",
+    "Gravewright Core"
+  ],
+  "Marketplace": [
+    "Marketplace",
+    "Marketplace"
+  ],
+  "English": [
+    "Inglês",
+    "Inglés"
+  ],
+  "Brazilian Portuguese": [
+    "Português do Brasil",
+    "Portugués de Brasil"
+  ],
+  "Spanish": [
+    "Espanhol",
+    "Español"
+  ],
+  "About": [
+    "Sobre",
+    "Acerca de"
+  ],
+  "Accept": [
+    "Aceitar",
+    "Aceptar"
+  ],
+  "Activate": [
+    "Ativar",
+    "Activar"
+  ],
+  "Activate all": [
+    "Ativar todos",
+    "Activar todos"
+  ],
+  "Activate scenes": [
+    "Ativar cenas",
+    "Activar escenas"
+  ],
+  "Activated as": [
+    "Ativado como",
+    "Activado como"
+  ],
+  "Activation": [
+    "Ativação",
+    "Activación"
+  ],
+  "Active": [
+    "Ativo",
+    "Activo"
+  ],
+  "Add": [
+    "Adicionar",
+    "Añadir"
+  ],
+  "Add actor": [
+    "Adicionar ator",
+    "Añadir actor"
+  ],
+  "Add document": [
+    "Adicionar documento",
+    "Añadir documento"
+  ],
+  "Add note": [
+    "Adicionar nota",
+    "Añadir nota"
+  ],
+  "Add objective": [
+    "Adicionar objetivo",
+    "Añadir objetivo"
+  ],
+  "Add quest": [
+    "Adicionar missão",
+    "Añadir misión"
+  ],
+  "Add result": [
+    "Adicionar resultado",
+    "Añadir resultado"
+  ],
+  "Add reward": [
+    "Adicionar recompensa",
+    "Añadir recompensa"
+  ],
+  "Add subfolder": [
+    "Adicionar subpasta",
+    "Añadir subcarpeta"
+  ],
+  "Add-on": [
+    "Complemento",
+    "Complemento"
+  ],
+  "Add-ons": [
+    "Complementos",
+    "Complementos"
+  ],
+  "Administration": [
+    "Administração",
+    "Administración"
+  ],
+  "Advantage": [
+    "Vantagem",
+    "Ventaja"
+  ],
+  "All": [
+    "Todos",
+    "Todos"
+  ],
+  "Allow": [
+    "Permitir",
+    "Permitir"
+  ],
+  "Appearance": [
+    "Aparência",
+    "Apariencia"
+  ],
+  "Application name": [
+    "Nome do aplicativo",
+    "Nombre de la aplicación"
+  ],
+  "Apply preset": [
+    "Aplicar predefinição",
+    "Aplicar preajuste"
+  ],
+  "Audience": [
+    "Público",
+    "Audiencia"
+  ],
+  "Audio": [
+    "Áudio",
+    "Audio"
+  ],
+  "Available": [
+    "Disponível",
+    "Disponible"
+  ],
+  "Back": [
+    "Voltar",
+    "Volver"
+  ],
+  "Backup": [
+    "Backup",
+    "Copia de seguridad"
+  ],
+  "Basic": [
+    "Básico",
+    "Básico"
+  ],
+  "Block": [
+    "Bloquear",
+    "Bloquear"
+  ],
+  "Campaigns": [
+    "Campanhas",
+    "Campañas"
+  ],
+  "Campaign name": [
+    "Nome da campanha",
+    "Nombre de la campaña"
+  ],
+  "Cancel": [
+    "Cancelar",
+    "Cancelar"
+  ],
+  "Change password": [
+    "Alterar senha",
+    "Cambiar contraseña"
+  ],
+  "Character": [
+    "Personagem",
+    "Personaje"
+  ],
+  "Characters": [
+    "Personagens",
+    "Personajes"
+  ],
+  "Character Sheets": [
+    "Fichas de personagens",
+    "Fichas de personajes"
+  ],
+  "Chat": [
+    "Chat",
+    "Chat"
+  ],
+  "Choose file": [
+    "Escolher arquivo",
+    "Elegir archivo"
+  ],
+  "Choose system": [
+    "Escolher sistema",
+    "Elegir sistema"
+  ],
+  "Classic": [
+    "Clássico",
+    "Clásico"
+  ],
+  "Clear": [
+    "Limpar",
+    "Limpiar"
+  ],
+  "Close": [
+    "Fechar",
+    "Cerrar"
+  ],
+  "Closed": [
+    "Fechado",
+    "Cerrado"
+  ],
+  "Color": [
+    "Cor",
+    "Color"
+  ],
+  "Combat": [
+    "Combate",
+    "Combate"
+  ],
+  "Commands": [
+    "Comandos",
+    "Comandos"
+  ],
+  "Compatibility": [
+    "Compatibilidade",
+    "Compatibilidad"
+  ],
+  "Compatible": [
+    "Compatível",
+    "Compatible"
+  ],
+  "Compendium": [
+    "Compêndio",
+    "Compendio"
+  ],
+  "Compendiums": [
+    "Compêndios",
+    "Compendios"
+  ],
+  "Conditions": [
+    "Condições",
+    "Condiciones"
+  ],
+  "Configure": [
+    "Configurar",
+    "Configurar"
+  ],
+  "Confirm": [
+    "Confirmar",
+    "Confirmar"
+  ],
+  "Content": [
+    "Conteúdo",
+    "Contenido"
+  ],
+  "Continue": [
+    "Continuar",
+    "Continuar"
+  ],
+  "Copy": [
+    "Copiar",
+    "Copiar"
+  ],
+  "Create": [
+    "Criar",
+    "Crear"
+  ],
+  "Create account": [
+    "Criar conta",
+    "Crear cuenta"
+  ],
+  "Create campaign": [
+    "Criar campanha",
+    "Crear campaña"
+  ],
+  "Create character": [
+    "Criar personagem",
+    "Crear personaje"
+  ],
+  "Create folder": [
+    "Criar pasta",
+    "Crear carpeta"
+  ],
+  "Create item": [
+    "Criar item",
+    "Crear objeto"
+  ],
+  "Create scene": [
+    "Criar cena",
+    "Crear escena"
+  ],
+  "Current password": [
+    "Senha atual",
+    "Contraseña actual"
+  ],
+  "Custom": [
+    "Personalizado",
+    "Personalizado"
+  ],
+  "Deactivate": [
+    "Desativar",
+    "Desactivar"
+  ],
+  "Deck": [
+    "Baralho",
+    "Mazo"
+  ],
+  "Decks": [
+    "Baralhos",
+    "Mazos"
+  ],
+  "Decline": [
+    "Recusar",
+    "Rechazar"
+  ],
+  "Delete": [
+    "Excluir",
+    "Eliminar"
+  ],
+  "Description": [
+    "Descrição",
+    "Descripción"
+  ],
+  "Dice": [
+    "Dados",
+    "Dados"
+  ],
+  "Dice tray": [
+    "Bandeja de dados",
+    "Bandeja de dados"
+  ],
+  "Disable": [
+    "Desativar",
+    "Desactivar"
+  ],
+  "Disabled": [
+    "Desativado",
+    "Desactivado"
+  ],
+  "Disadvantage": [
+    "Desvantagem",
+    "Desventaja"
+  ],
+  "Display name": [
+    "Nome de exibição",
+    "Nombre para mostrar"
+  ],
+  "Done": [
+    "Concluído",
+    "Listo"
+  ],
+  "Door": [
+    "Porta",
+    "Puerta"
+  ],
+  "Draft": [
+    "Rascunho",
+    "Borrador"
+  ],
+  "Draw": [
+    "Desenhar",
+    "Dibujar"
+  ],
+  "Duplicate": [
+    "Duplicar",
+    "Duplicar"
+  ],
+  "Edit": [
+    "Editar",
+    "Editar"
+  ],
+  "Email": [
+    "E-mail",
+    "Correo electrónico"
+  ],
+  "Enable": [
+    "Ativar",
+    "Activar"
+  ],
+  "Enabled": [
+    "Ativado",
+    "Activado"
+  ],
+  "End": [
+    "Fim",
+    "Fin"
+  ],
+  "Enter table": [
+    "Entrar na mesa",
+    "Entrar en la mesa"
+  ],
+  "Error": [
+    "Erro",
+    "Error"
+  ],
+  "Extensions": [
+    "Extensões",
+    "Extensiones"
+  ],
+  "Folder": [
+    "Pasta",
+    "Carpeta"
+  ],
+  "Folders": [
+    "Pastas",
+    "Carpetas"
+  ],
+  "Game": [
+    "Jogo",
+    "Juego"
+  ],
+  "Game master": [
+    "Mestre",
+    "Director de juego"
+  ],
+  "General": [
+    "Geral",
+    "General"
+  ],
+  "Getting started": [
+    "Primeiros passos",
+    "Primeros pasos"
+  ],
+  "Got it": [
+    "Entendi",
+    "Entendido"
+  ],
+  "Grid": [
+    "Grade",
+    "Cuadrícula"
+  ],
+  "Group": [
+    "Grupo",
+    "Grupo"
+  ],
+  "Groups": [
+    "Grupos",
+    "Grupos"
+  ],
+  "Hand": [
+    "Mão",
+    "Mano"
+  ],
+  "Health": [
+    "Vitalidade",
+    "Salud"
+  ],
+  "Hidden": [
+    "Oculto",
+    "Oculto"
+  ],
+  "Hide": [
+    "Ocultar",
+    "Ocultar"
+  ],
+  "High": [
+    "Alta",
+    "Alta"
+  ],
+  "Home": [
+    "Início",
+    "Inicio"
+  ],
+  "Identification color": [
+    "Cor de identificação",
+    "Color de identificación"
+  ],
+  "Image": [
+    "Imagem",
+    "Imagen"
+  ],
+  "Images": [
+    "Imagens",
+    "Imágenes"
+  ],
+  "Import": [
+    "Importar",
+    "Importar"
+  ],
+  "Incompatible": [
+    "Incompatível",
+    "Incompatible"
+  ],
+  "Initiative": [
+    "Iniciativa",
+    "Iniciativa"
+  ],
+  "Install": [
+    "Instalar",
+    "Instalar"
+  ],
+  "Installation": [
+    "Instalação",
+    "Instalación"
+  ],
+  "Installed": [
+    "Instalado",
+    "Instalado"
+  ],
+  "Interface": [
+    "Interface",
+    "Interfaz"
+  ],
+  "Invite": [
+    "Convidar",
+    "Invitar"
+  ],
+  "Item": [
+    "Item",
+    "Objeto"
+  ],
+  "Items": [
+    "Itens",
+    "Objetos"
+  ],
+  "Journal": [
+    "Diário",
+    "Diario"
+  ],
+  "Journals": [
+    "Diários",
+    "Diarios"
+  ],
+  "Language": [
+    "Idioma",
+    "Idioma"
+  ],
+  "Layers": [
+    "Camadas",
+    "Capas"
+  ],
+  "Library": [
+    "Biblioteca",
+    "Biblioteca"
+  ],
+  "Light": [
+    "Luz",
+    "Luz"
+  ],
+  "Lighting": [
+    "Iluminação",
+    "Iluminación"
+  ],
+  "Lights": [
+    "Luzes",
+    "Luces"
+  ],
+  "List": [
+    "Lista",
+    "Lista"
+  ],
+  "Lock": [
+    "Bloquear",
+    "Bloquear"
+  ],
+  "Locked": [
+    "Bloqueado",
+    "Bloqueado"
+  ],
+  "Login": [
+    "Entrar",
+    "Iniciar sesión"
+  ],
+  "Low": [
+    "Baixa",
+    "Baja"
+  ],
+  "Map ping": [
+    "Sinalização no mapa",
+    "Señal en el mapa"
+  ],
+  "Map image": [
+    "Imagem do mapa",
+    "Imagen del mapa"
+  ],
+  "Medium": [
+    "Média",
+    "Media"
+  ],
+  "Mode": [
+    "Modo",
+    "Modo"
+  ],
+  "Modules": [
+    "Módulos",
+    "Módulos"
+  ],
+  "Move": [
+    "Mover",
+    "Mover"
+  ],
+  "Music": [
+    "Música",
+    "Música"
+  ],
+  "Mute": [
+    "Silenciar",
+    "Silenciar"
+  ],
+  "Name": [
+    "Nome",
+    "Nombre"
+  ],
+  "New password": [
+    "Nova senha",
+    "Nueva contraseña"
+  ],
+  "Confirm new password": [
+    "Confirmar nova senha",
+    "Confirmar nueva contraseña"
+  ],
+  "Next": [
+    "Próximo",
+    "Siguiente"
+  ],
+  "None": [
+    "Nenhum",
+    "Ninguno"
+  ],
+  "Notes": [
+    "Notas",
+    "Notas"
+  ],
+  "Offline": [
+    "Offline",
+    "Sin conexión"
+  ],
+  "Online": [
+    "Online",
+    "En línea"
+  ],
+  "Open": [
+    "Abrir",
+    "Abrir"
+  ],
+  "Owner": [
+    "Proprietário",
+    "Propietario"
+  ],
+  "Packages": [
+    "Pacotes",
+    "Paquetes"
+  ],
+  "Page": [
+    "Página",
+    "Página"
+  ],
+  "Participants": [
+    "Participantes",
+    "Participantes"
+  ],
+  "Password": [
+    "Senha",
+    "Contraseña"
+  ],
+  "Paste": [
+    "Colar",
+    "Pegar"
+  ],
+  "Pause": [
+    "Pausar",
+    "Pausar"
+  ],
+  "Permissions": [
+    "Permissões",
+    "Permisos"
+  ],
+  "Play": [
+    "Reproduzir",
+    "Reproducir"
+  ],
+  "Player": [
+    "Jogador",
+    "Jugador"
+  ],
+  "Players": [
+    "Jogadores",
+    "Jugadores"
+  ],
+  "Preferences": [
+    "Preferências",
+    "Preferencias"
+  ],
+  "Preview": [
+    "Prévia",
+    "Vista previa"
+  ],
+  "Privacy": [
+    "Privacidade",
+    "Privacidad"
+  ],
+  "Privacy Policy": [
+    "Política de privacidade",
+    "Política de privacidad"
+  ],
+  "Private": [
+    "Privado",
+    "Privado"
+  ],
+  "Profile": [
+    "Perfil",
+    "Perfil"
+  ],
+  "Public": [
+    "Público",
+    "Público"
+  ],
+  "Quality": [
+    "Qualidade",
+    "Calidad"
+  ],
+  "Quest": [
+    "Missão",
+    "Misión"
+  ],
+  "Quest board": [
+    "Quadro de missões",
+    "Tablero de misiones"
+  ],
+  "Read": [
+    "Ler",
+    "Leer"
+  ],
+  "Ready": [
+    "Pronto",
+    "Listo"
+  ],
+  "Redo": [
+    "Refazer",
+    "Rehacer"
+  ],
+  "Refresh": [
+    "Atualizar",
+    "Actualizar"
+  ],
+  "Remove": [
+    "Remover",
+    "Quitar"
+  ],
+  "Rename": [
+    "Renomear",
+    "Renombrar"
+  ],
+  "Reset": [
+    "Redefinir",
+    "Restablecer"
+  ],
+  "Restore": [
+    "Restaurar",
+    "Restaurar"
+  ],
+  "Result": [
+    "Resultado",
+    "Resultado"
+  ],
+  "Reveal": [
+    "Revelar",
+    "Revelar"
+  ],
+  "Revoked": [
+    "Revogado",
+    "Revocado"
+  ],
+  "Role": [
+    "Função",
+    "Rol"
+  ],
+  "Roll": [
+    "Rolar",
+    "Tirar"
+  ],
+  "Ruleset": [
+    "Sistema de regras",
+    "Sistema de reglas"
+  ],
+  "Rulesets": [
+    "Sistemas de regras",
+    "Sistemas de reglas"
+  ],
+  "Save": [
+    "Salvar",
+    "Guardar"
+  ],
+  "Save account": [
+    "Salvar conta",
+    "Guardar cuenta"
+  ],
+  "Save changes": [
+    "Salvar alterações",
+    "Guardar cambios"
+  ],
+  "Save settings": [
+    "Salvar configurações",
+    "Guardar configuración"
+  ],
+  "Saved": [
+    "Salvo",
+    "Guardado"
+  ],
+  "Saving…": [
+    "Salvando…",
+    "Guardando…"
+  ],
+  "Scene": [
+    "Cena",
+    "Escena"
+  ],
+  "Scenes": [
+    "Cenas",
+    "Escenas"
+  ],
+  "Search": [
+    "Buscar",
+    "Buscar"
+  ],
+  "Secret": [
+    "Segredo",
+    "Secreto"
+  ],
+  "Select": [
+    "Selecionar",
+    "Seleccionar"
+  ],
+  "Send": [
+    "Enviar",
+    "Enviar"
+  ],
+  "Sessions": [
+    "Sessões",
+    "Sesiones"
+  ],
+  "Setup": [
+    "Configuração inicial",
+    "Configuración inicial"
+  ],
+  "Sheets": [
+    "Fichas",
+    "Fichas"
+  ],
+  "Show": [
+    "Mostrar",
+    "Mostrar"
+  ],
+  "Shuffle": [
+    "Embaralhar",
+    "Barajar"
+  ],
+  "Sign in": [
+    "Entrar",
+    "Iniciar sesión"
+  ],
+  "Sign out": [
+    "Sair",
+    "Cerrar sesión"
+  ],
+  "Size": [
+    "Tamanho",
+    "Tamaño"
+  ],
+  "Source": [
+    "Origem",
+    "Origen"
+  ],
+  "Start combat": [
+    "Iniciar combate",
+    "Iniciar combate"
+  ],
+  "State": [
+    "Estado",
+    "Estado"
+  ],
+  "Status": [
+    "Estado",
+    "Estado"
+  ],
+  "System": [
+    "Sistema",
+    "Sistema"
+  ],
+  "Systems": [
+    "Sistemas",
+    "Sistemas"
+  ],
+  "Table": [
+    "Mesa",
+    "Mesa"
+  ],
+  "Tables": [
+    "Mesas",
+    "Mesas"
+  ],
+  "Table settings": [
+    "Configurações da mesa",
+    "Configuración de la mesa"
+  ],
+  "Text": [
+    "Texto",
+    "Texto"
+  ],
+  "Theme": [
+    "Tema",
+    "Tema"
+  ],
+  "Title": [
+    "Título",
+    "Título"
+  ],
+  "Tools": [
+    "Ferramentas",
+    "Herramientas"
+  ],
+  "Turn": [
+    "Turno",
+    "Turno"
+  ],
+  "Type": [
+    "Tipo",
+    "Tipo"
+  ],
+  "Undo": [
+    "Desfazer",
+    "Deshacer"
+  ],
+  "Unlock": [
+    "Desbloquear",
+    "Desbloquear"
+  ],
+  "Upload": [
+    "Enviar arquivo",
+    "Subir archivo"
+  ],
+  "User": [
+    "Usuário",
+    "Usuario"
+  ],
+  "Visibility": [
+    "Visibilidade",
+    "Visibilidad"
+  ],
+  "Volume": [
+    "Volume",
+    "Volumen"
+  ],
+  "Wall": [
+    "Parede",
+    "Pared"
+  ],
+  "Walls": [
+    "Paredes",
+    "Paredes"
+  ],
+  "Welcome, {name}": [
+    "Boas-vindas, {name}",
+    "Bienvenido, {name}"
+  ],
+  "Your name": [
+    "Seu nome",
+    "Tu nombre"
+  ],
+  "Your password": [
+    "Sua senha",
+    "Tu contraseña"
+  ],
+  "12 characters minimum": [
+    "Mínimo de 12 caracteres",
+    "Mínimo de 12 caracteres"
+  ],
+  "Access to your table": [
+    "Acesso à sua mesa",
+    "Acceso a tu mesa"
+  ],
+  "Access your tables, sheets, scenes and campaigns.": [
+    "Acesse suas mesas, fichas, cenas e campanhas.",
+    "Accede a tus mesas, fichas, escenas y campañas."
+  ],
+  "A module could not load correctly. Refresh to retry.": [
+    "Não foi possível carregar um módulo. Atualize para tentar novamente.",
+    "No se pudo cargar un módulo. Actualiza para volver a intentarlo."
+  ],
+  "A player's role changed": [
+    "A função de um jogador foi alterada",
+    "Se cambió el rol de un jugador"
+  ],
+  "Icons over tokens on the map.": [
+    "Ícones sobre os tokens no mapa.",
+    "Iconos sobre las fichas del mapa."
+  ],
+  "HUD estilo MMO no canto superior direito, agrupado por token.": [
+    "HUD estilo MMO no canto superior direito, agrupado por token.",
+    "HUD de estilo MMO en la esquina superior derecha, agrupado por ficha."
+  ],
+  "Server diagnostics": [
+    "Diagnóstico do servidor",
+    "Diagnóstico del servidor"
+  ],
+  "4d6 per attribute; drop the lowest. Each value is independent.": [
+    "4d6 por atributo; descarte o menor. Cada valor é independente.",
+    "4d6 por atributo; descarta el menor. Cada valor es independiente."
+  ],
+  "2d6 check": [
+    "Teste de 2d6",
+    "Prueba de 2d6"
+  ],
+  "3d6 attributes": [
+    "Atributos de 3d6",
+    "Atributos de 3d6"
+  ],
+  "{count} separate results in chat, without adding them together.": [
+    "{count} resultados separados no chat, sem somá-los.",
+    "{count} resultados separados en el chat, sin sumarlos."
+  ],
+  "My presets ·": [
+    "Minhas predefinições ·",
+    "Mis preajustes ·"
+  ],
+  "Recent": [
+    "Recentes",
+    "Recientes"
+  ],
+  "Shapes": [
+    "Formas",
+    "Formas"
+  ],
+  "Sound": [
+    "Som",
+    "Sonido"
+  ],
+  "Clear all scene effects": [
+    "Limpar todos os efeitos da cena",
+    "Borrar todos los efectos de la escena"
+  ],
+  "Clear all scene lights": [
+    "Limpar todas as luzes da cena",
+    "Borrar todas las luces de la escena"
+  ],
+  "Clear all scene walls": [
+    "Limpar todas as paredes da cena",
+    "Borrar todas las paredes de la escena"
+  ],
+  "Close Combat": [
+    "Fechar combate",
+    "Cerrar combate"
+  ],
+  "Close Compendiums": [
+    "Fechar compêndios",
+    "Cerrar compendios"
+  ],
+  "Close Items": [
+    "Fechar itens",
+    "Cerrar objetos"
+  ],
+  "Search Items": [
+    "Buscar itens",
+    "Buscar objetos"
+  ],
+  "Gravewright PDF System": [
+    "Gravewright PDF System",
+    "Gravewright PDF System"
+  ],
+  "Fudge: −1, 0, +1": [
+    "Fudge: −1, 0, +1",
+    "Fudge: −1, 0, +1"
+  ],
+  "dF: −1, 0 or +1. Use the formula for rerolls, functions, and comparisons.": [
+    "dF: −1, 0 ou +1. Use a fórmula para novas rolagens, funções e comparações.",
+    "dF: −1, 0 o +1. Usa la fórmula para repetir tiradas, funciones y comparaciones."
+  ],
+  "actors": [
+    "actors",
+    "actors"
+  ],
+  "campaigns": [
+    "Campanhas",
+    "Campañas"
+  ],
+  "items": [
+    "Itens",
+    "Objetos"
+  ],
+  "journals": [
+    "Diários",
+    "Diarios"
+  ],
+  "scenes": [
+    "Cenas",
+    "Escenas"
+  ],
+  "settings": [
+    "Configurações",
+    "Configuración"
+  ],
+  "diagnostics": [
+    "diagnóstico",
+    "diagnóstico"
+  ],
+  "updates": [
+    "atualizações",
+    "actualizaciones"
+  ],
+  "A": [
+    "A",
+    "A"
+  ],
+  "B": [
+    "B",
+    "B"
+  ],
+  "C": [
+    "C",
+    "C"
+  ],
+  "D": [
+    "D",
+    "D"
+  ],
+  "E": [
+    "E",
+    "E"
+  ],
+  "F": [
+    "F",
+    "F"
+  ],
+  "G": [
+    "G",
+    "G"
+  ],
+  "H": [
+    "H",
+    "H"
+  ],
+  "I": [
+    "I",
+    "I"
+  ],
+  "J": [
+    "J",
+    "J"
+  ],
+  "K": [
+    "K",
+    "K"
+  ],
+  "L": [
+    "L",
+    "L"
+  ],
+  "M": [
+    "M",
+    "M"
+  ],
+  "N": [
+    "N",
+    "N"
+  ],
+  "O": [
+    "O",
+    "O"
+  ],
+  "P": [
+    "P",
+    "P"
+  ],
+  "Q": [
+    "Q",
+    "Q"
+  ],
+  "R": [
+    "R",
+    "R"
+  ],
+  "S": [
+    "S",
+    "S"
+  ],
+  "T": [
+    "T",
+    "T"
+  ],
+  "U": [
+    "U",
+    "U"
+  ],
+  "V": [
+    "V",
+    "V"
+  ],
+  "W": [
+    "W",
+    "W"
+  ],
+  "X": [
+    "X",
+    "X"
+  ],
+  "Y": [
+    "Y",
+    "Y"
+  ],
+  "Z": [
+    "Z",
+    "Z"
+  ],
+  "d2": [
+    "d2",
+    "d2"
+  ],
+  "Add d2": [
+    "Adicionar d2",
+    "Añadir d2"
+  ],
+  "d3": [
+    "d3",
+    "d3"
+  ],
+  "Add d3": [
+    "Adicionar d3",
+    "Añadir d3"
+  ],
+  "d4": [
+    "d4",
+    "d4"
+  ],
+  "Add d4": [
+    "Adicionar d4",
+    "Añadir d4"
+  ],
+  "d5": [
+    "d5",
+    "d5"
+  ],
+  "Add d5": [
+    "Adicionar d5",
+    "Añadir d5"
+  ],
+  "d6": [
+    "d6",
+    "d6"
+  ],
+  "Add d6": [
+    "Adicionar d6",
+    "Añadir d6"
+  ],
+  "d7": [
+    "d7",
+    "d7"
+  ],
+  "Add d7": [
+    "Adicionar d7",
+    "Añadir d7"
+  ],
+  "d8": [
+    "d8",
+    "d8"
+  ],
+  "Add d8": [
+    "Adicionar d8",
+    "Añadir d8"
+  ],
+  "d10": [
+    "d10",
+    "d10"
+  ],
+  "Add d10": [
+    "Adicionar d10",
+    "Añadir d10"
+  ],
+  "d12": [
+    "d12",
+    "d12"
+  ],
+  "Add d12": [
+    "Adicionar d12",
+    "Añadir d12"
+  ],
+  "d14": [
+    "d14",
+    "d14"
+  ],
+  "Add d14": [
+    "Adicionar d14",
+    "Añadir d14"
+  ],
+  "d16": [
+    "d16",
+    "d16"
+  ],
+  "Add d16": [
+    "Adicionar d16",
+    "Añadir d16"
+  ],
+  "d20": [
+    "d20",
+    "d20"
+  ],
+  "Add d20": [
+    "Adicionar d20",
+    "Añadir d20"
+  ],
+  "d24": [
+    "d24",
+    "d24"
+  ],
+  "Add d24": [
+    "Adicionar d24",
+    "Añadir d24"
+  ],
+  "d30": [
+    "d30",
+    "d30"
+  ],
+  "Add d30": [
+    "Adicionar d30",
+    "Añadir d30"
+  ],
+  "d50": [
+    "d50",
+    "d50"
+  ],
+  "Add d50": [
+    "Adicionar d50",
+    "Añadir d50"
+  ],
+  "d60": [
+    "d60",
+    "d60"
+  ],
+  "Add d60": [
+    "Adicionar d60",
+    "Añadir d60"
+  ],
+  "d100": [
+    "d100",
+    "d100"
+  ],
+  "Add d100": [
+    "Adicionar d100",
+    "Añadir d100"
+  ],
+  "dF": [
+    "dF",
+    "dF"
+  ],
+  "Add dF": [
+    "Adicionar dF",
+    "Añadir dF"
+  ],
+  "Ferramentas: Effects": [
+    "Ferramentas: Efeitos",
+    "Herramientas: Efectos"
+  ],
+  "Ferramentas: GM": [
+    "Ferramentas: Mestre",
+    "Herramientas: Director de juego"
+  ],
+  "Ferramentas: Game": [
+    "Ferramentas: Jogo",
+    "Herramientas: Juego"
+  ],
+  "Ferramentas: Images": [
+    "Ferramentas: Imagens",
+    "Herramientas: Imágenes"
+  ],
+  "Ferramentas: Lighting": [
+    "Ferramentas: Iluminação",
+    "Herramientas: Iluminación"
+  ],
+  "Ferramentas: Sound": [
+    "Ferramentas: Som",
+    "Herramientas: Sonido"
+  ],
+  "Ferramentas: Walls": [
+    "Ferramentas: Paredes",
+    "Herramientas: Paredes"
+  ],
+  "2d20kh1 · 4d6dl1 · 1d6! · 1d6!o · 1d6r=1 · 1d6rr=1 · 8d10": [
+    "2d20kh1 · 4d6dl1 · 1d6! · 1d6!o · 1d6r=1 · 1d6rr=1 · 8d10",
+    "2d20kh1 · 4d6dl1 · 1d6! · 1d6!o · 1d6r=1 · 1d6rr=1 · 8d10"
+  ],
+  "= 8 · max(1d6, 1d8)": [
+    "= 8 · max(1d6, 1d8)",
+    "= 8 · max(1d6, 1d8)"
+  ],
+  "Master": [
+    "Mestre",
+    "Director de juego"
+  ],
+  "No map has been drawn, no hero has answered the call. There is only the hush before the first line. Begin with the scenes or the characters: every legend needed a first stroke.": [
+    "Nenhum mapa foi desenhado, nenhum herói respondeu ao chamado. Há apenas o silêncio antes da primeira linha. Comece pelas cenas ou pelos personagens: toda lenda precisa de um primeiro traço.",
+    "Ningún mapa ha sido dibujado, ningún héroe ha respondido a la llamada. Solo queda el silencio antes de la primera línea. Empieza por las escenas o los personajes: toda leyenda necesita un primer trazo."
+  ]
+}
