@@ -40,3 +40,5 @@ The catalogs cover extracted native message dictionaries, static template labels
 Campaign names, player names, chat messages, editable journals, PDF content, imported rules, third-party module content and other user-authored data retain their original text. Generated sentences and UI added after this inventory may need additional catalog entries. Initial catalogs use offline machine assistance with manually reviewed common controls; longer or uncommon phrases may still need linguistic review. Report untranslated or incorrect UI strings with their source text and screen.
 
 See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for generation tools/model attribution. Models are not distributed or required at runtime.
+
+The signing command includes `type: module` and the creator-defined categories `Tradução`, `Idiomas`, and `Interface`. Override them with repeated `--tag` arguments. Tags belong to signed catalog metadata; they do not change the release ZIP. The current VTT host displays them as categories in its installation modal.
