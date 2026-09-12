@@ -1,0 +1,29 @@
+{
+  "mode": "offline",
+  "checks": [
+    "listed in installed modules; owner activates installation-wide",
+    "three languages persist across reloads and pages",
+    "selector only in internal account settings",
+    "account and campaign names and protected chat remain unchanged",
+    "deactivation removes selector and restores English",
+    "no browser JavaScript errors",
+    "offline package/database/media removed"
+  ],
+  "unmappedControls": {
+    "pt-BR/campaigns": [],
+    "pt-BR/systems": [],
+    "pt-BR/addons": [],
+    "pt-BR/administration": [],
+    "pt-BR/table": [],
+    "es/campaigns": [],
+    "es/systems": [],
+    "es/addons": [],
+    "es/administration": [],
+    "es/table": [],
+    "en/campaigns": [],
+    "en/systems": [],
+    "en/addons": [],
+    "en/administration": [],
+    "en/table": []
+  }
+}

@@ -13,4 +13,8 @@ Offline Chromium acceptance passed with the development Gravewright host and the
 
 The final catalog contains 2,607 entries per language. This is inventory coverage, not exhaustive screen coverage or a full linguistic review. User documents, PDFs and third-party interfaces are outside its scope. Longer machine-assisted translations may still need review.
 
-The online marketplace round trip is performed after publishing the release and signed catalog; its result will be appended here.
+Online Chromium acceptance also passed against the public catalog on marketplace `main` (commit `693da84`) and the GitHub v0.1.0 ZIP. The test began with an empty package database and no Translator Django authoring app. Installation used the actual Marketplace button, verified the signed record/archive, and repeated all three languages and deactivation checks. No unmapped controls were recorded on the visited pages.
+
+Final ZIP SHA-256: `bd2f829639b5a75557b373cef48c408ebeb5e4565b6df03372eb27a7943caa29`.
+
+Host regression validation: 279 Django tests, 62 JavaScript map model tests, and the signed-system marketplace Chromium test passed. The required host integration changes remain in the local Gravewright development checkout; they have not been published as part of the Translator repository.
