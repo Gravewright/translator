@@ -1,4 +1,10 @@
 {
+  "\nGravewright Runner stopped.": [
+    "scripts/gravewright_runner.py"
+  ],
+  " (y/n)": [
+    "scripts/gravewright_runner.py"
+  ],
   "(optional)": [
     "gravewright/dice/jinja2/gravewright_dice/tray.html"
   ],
@@ -416,6 +422,9 @@
   "Allow": [
     "gravewright/maps/jinja2/gravewright_maps/layers.html"
   ],
+  "Allow access through tunnels": [
+    "scripts/gravewright_runner.py"
+  ],
   "Allow repeated results": [
     "gravewright/table/tool_messages.json"
   ],
@@ -663,6 +672,9 @@
     "gravewright/maps/frontend/features/scene-layers/lib/shader-presets.js",
     "gravewright/maps/static/gravewright_maps/sources/sources.js",
     "gravewright/maps/static/gravewright_maps/tools.js"
+  ],
+  "Ask personal settings and offer the official marketplace, then exit.": [
+    "scripts/gravewright_runner.py"
   ],
   "Asset folders": [
     "gravewright/maps/static/gravewright_maps/tools.js"
@@ -975,6 +987,9 @@
   "Campaign description is too long.": [
     "gravewright/table/tool_messages.json"
   ],
+  "Campaign export": [
+    "scripts/gravewright_runner.py"
+  ],
   "Campaign imported successfully.": [
     "gravewright/table/tool_messages.json"
   ],
@@ -990,6 +1005,9 @@
   ],
   "Campaign package": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Campaign snapshots": [
+    "scripts/gravewright_runner.py"
   ],
   "Campaign title is too long.": [
     "gravewright/table/tool_messages.json"
@@ -1496,6 +1514,12 @@
   "Configurable": [
     "gravewright/table/tool_messages.json"
   ],
+  "Configuration cancelled; answers were not saved. Run interactively to configure, or use --check for unattended checks.": [
+    "scripts/gravewright_runner.py"
+  ],
+  "Configuration saved.": [
+    "scripts/gravewright_runner.py"
+  ],
   "Configure": [
     "gravewright/maps/static/gravewright_maps/layers.js",
     "gravewright/table/tool_messages.json"
@@ -1515,6 +1539,9 @@
   "Configure wall": [
     "gravewright/maps/jinja2/gravewright_maps/layers.html",
     "gravewright/maps/static/gravewright_maps/layers.js"
+  ],
+  "Configure: {config}\nEnter = keep current value. Ctrl+C = cancel.": [
+    "scripts/gravewright_runner.py"
   ],
   "Confirm": [
     "gravewright/table/tool_messages.json"
@@ -1686,9 +1713,15 @@
   "Could not copy. Check clipboard permissions and try again.": [
     "gravewright/maps/frontend/features/effects/model/legacy-labels.js"
   ],
+  "Could not download the default marketplace public keys.": [
+    "scripts/gravewright_runner.py"
+  ],
   "Could not import this entry.": [
     "gravewright/maps/frontend/features/table-library/ui/ContentDirectory.native.js",
     "gravewright/table/static/gravewright_table/media-workspace.js"
+  ],
+  "Could not install or verify the required pt-BR Translator. Check your connection, signing keys and module files, then retry.": [
+    "scripts/gravewright_runner.py"
   ],
   "Could not load administrative history.": [
     "gravewright/table/tool_messages.json"
@@ -1747,6 +1780,9 @@
   ],
   "Could not present the journal.": [
     "gravewright/journals/static/gravewright_journals/workspace.js"
+  ],
+  "Could not read the Runner configuration at {path}.": [
+    "scripts/gravewright_runner.py"
   ],
   "Could not read the file duration.": [
     "gravewright/maps/frontend/features/audio/ui/SoundtrackPanel.native.js",
@@ -2132,6 +2168,12 @@
   ],
   "Decline": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Default marketplace installation skipped.": [
+    "scripts/gravewright_runner.py"
+  ],
+  "Default marketplace installed. Public keys: {path}": [
+    "scripts/gravewright_runner.py"
   ],
   "Defense": [
     "gravewright/pdf_system/frontend/mapping.js",
@@ -2720,6 +2762,9 @@
   "Enter a valid name.": [
     "gravewright/table/tool_messages.json"
   ],
+  "Enter a value.": [
+    "scripts/gravewright_runner.py"
+  ],
   "Enter table": [
     "gravewright/web/inside_messages.json"
   ],
@@ -3153,6 +3198,12 @@
   "GRAVEWRIGHT": [
     "gravewright/web/jinja2/gravewright_web/inside/modules.html"
   ],
+  "GRAVEWRIGHT_ALLOW_TUNNELS must be true or false.": [
+    "scripts/gravewright_runner.py"
+  ],
+  "GRAVEWRIGHT_PORT must be a number from 1 to 65535.": [
+    "scripts/gravewright_runner.py"
+  ],
   "Gain": [
     "gravewright/table/tool_messages.json"
   ],
@@ -3259,8 +3310,35 @@
   "Gravewright PDF System": [
     "scripts/reviewed.json"
   ],
+  "Gravewright Runner - {version}\nConfig: {config}\nDatabase: {database}\nMedia: {media}\nRunner state: {directory}\nLog: {log}": [
+    "scripts/gravewright_runner.py"
+  ],
+  "Gravewright Runner checks passed.": [
+    "scripts/gravewright_runner.py"
+  ],
+  "Gravewright Runner could not prepare its configuration. Check the data-directory permissions and installed dependencies.": [
+    "scripts/gravewright_runner.py"
+  ],
+  "Gravewright Runner could not start. See {log}": [
+    "scripts/gravewright_runner.py"
+  ],
+  "Gravewright Runner is already using this data directory. Close the other Runner before starting again.": [
+    "scripts/gravewright_runner.py"
+  ],
+  "Gravewright Runner stopped.": [
+    "scripts/gravewright_runner.py"
+  ],
+  "Gravewright Runner: install data and run locally.": [
+    "scripts/gravewright_runner.py"
+  ],
+  "Gravewright Runner: {error}": [
+    "scripts/gravewright_runner.py"
+  ],
   "Gravewright VTT": [
     "gravewright/accounts/messages.json"
+  ],
+  "Gravewright is ready: {url}": [
+    "scripts/gravewright_runner.py"
   ],
   "GravewrightError": [
     "gravewright/modules/static/gravewright_modules/lifetime.js"
@@ -3606,6 +3684,9 @@
   "Install ruleset": [
     "gravewright/table/tool_messages.json"
   ],
+  "Install the default Gravewright Marketplace? [y/N]: ": [
+    "scripts/gravewright_runner.py"
+  ],
   "Installation": [
     "gravewright/table/tool_messages.json"
   ],
@@ -3618,6 +3699,9 @@
   ],
   "Installed version is ahead of the selected channel": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Installing the official Translator for pt-BR...": [
+    "scripts/gravewright_runner.py"
   ],
   "Intensity": [
     "gravewright/maps/frontend/features/effects/model/legacy-labels.js",
@@ -3646,6 +3730,9 @@
   ],
   "Invalid dice expression.": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Invalid document identifier.": [
+    "gravewright/modules/locale_overrides/pt-BR.json"
   ],
   "Invalid duration.": [
     "gravewright/maps/frontend/features/audio/ui/SoundtrackPanel.native.js",
@@ -3679,6 +3766,9 @@
   ],
   "Invalid value for this add-on setting.": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Invalid value.": [
+    "scripts/gravewright_runner.py"
   ],
   "Invalid vision mode.": [
     "gravewright/table/tool_messages.json"
@@ -3766,6 +3856,9 @@
   "Join campaign": [
     "gravewright/web/inside_messages.json"
   ],
+  "Join codes": [
+    "scripts/gravewright_runner.py"
+  ],
   "Join table": [
     "gravewright/table/tool_messages.json"
   ],
@@ -3808,6 +3901,9 @@
   "Keep lowest": [
     "gravewright/dice/jinja2/gravewright_dice/tray.html"
   ],
+  "Keep this window open. Press Ctrl+C to stop the Runner.": [
+    "scripts/gravewright_runner.py"
+  ],
   "Kind": [
     "gravewright/table/tool_messages.json"
   ],
@@ -3816,6 +3912,9 @@
   ],
   "Language": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Language (en, pt-BR)": [
+    "scripts/gravewright_runner.py"
   ],
   "Large flakes and ice crystals blown in a whirlwind.": [
     "gravewright/maps/frontend/features/scene-layers/lib/shader-presets.js",
@@ -3957,6 +4056,9 @@
   ],
   "Lobby and ready check": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Local port (1-65535)": [
+    "scripts/gravewright_runner.py"
   ],
   "Location": [
     "gravewright/table/tool_messages.json"
@@ -4254,6 +4356,9 @@
   ],
   "Modules": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Modules folder": [
+    "scripts/gravewright_runner.py"
   ],
   "Modules run JavaScript in the browser. Install only versions reviewed by your configured marketplace. Deactivation stops the module, but cannot recall data already shared or downloaded.": [
     "gravewright/web/jinja2/gravewright_web/inside/shell.html"
@@ -4909,6 +5014,9 @@
     "gravewright/maps/frontend/features/audio/ui/AudioWorkspace.native.js",
     "gravewright/table/static/gravewright_table/media-workspace.js"
   ],
+  "Open the address above in your browser.": [
+    "scripts/gravewright_runner.py"
+  ],
   "Open the project marketplace repository ↗": [
     "gravewright/web/jinja2/gravewright_web/inside/modules.html"
   ],
@@ -4971,6 +5079,9 @@
   "Overlay": [
     "gravewright/maps/frontend/features/effects/model/legacy-labels.js",
     "gravewright/table/tool_messages.json"
+  ],
+  "Override the persistent user-data directory.": [
+    "scripts/gravewright_runner.py"
   ],
   "Owner": [
     "gravewright/table/tool_messages.json"
@@ -5561,6 +5672,9 @@
   "Polygon": [
     "gravewright/table/tool_messages.json"
   ],
+  "Port {port} is unavailable. Close the program using it or change GRAVEWRIGHT_PORT in the Runner configuration.": [
+    "scripts/gravewright_runner.py"
+  ],
   "Portals": [
     "gravewright/maps/frontend/features/scene-layers/lib/shader-presets.js",
     "gravewright/maps/static/gravewright_maps/sources/sources.js",
@@ -5586,6 +5700,9 @@
   "Prepare a new table with everything your journey will need.": [
     "gravewright/web/inside_messages.json"
   ],
+  "Prepare and check the installation, then exit.": [
+    "scripts/gravewright_runner.py"
+  ],
   "Prepare the first map or play space.": [
     "gravewright/table/tool_messages.json"
   ],
@@ -5595,6 +5712,9 @@
   "Preparing map…": [
     "gravewright/table/messages.json",
     "gravewright/table/tool_messages.json"
+  ],
+  "Preparing the database and application files...": [
+    "scripts/gravewright_runner.py"
   ],
   "Present": [
     "gravewright/journals/jinja2/gravewright_journals/workspace.html"
@@ -5656,6 +5776,9 @@
   "Previous turn": [
     "gravewright/table/static/gravewright_table/combat-panel.js",
     "gravewright/table/tool_messages.json"
+  ],
+  "Print the address without opening a browser.": [
+    "scripts/gravewright_runner.py"
   ],
   "Privacy": [
     "gravewright/accounts/messages.json",
@@ -6670,6 +6793,9 @@
   "Set a new password for your account.": [
     "gravewright/table/tool_messages.json"
   ],
+  "Set a private DJANGO_SECRET_KEY of at least 50 characters in {config}.": [
+    "scripts/gravewright_runner.py"
+  ],
   "Set initiative": [
     "gravewright/table/static/gravewright_table/combat-panel.js",
     "gravewright/table/tool_messages.json"
@@ -7109,6 +7235,9 @@
   "Table modules": [
     "gravewright/modules/static/gravewright_modules/workspace.js"
   ],
+  "Table name": [
+    "scripts/gravewright_runner.py"
+  ],
   "Table not found.": [
     "gravewright/table/tool_messages.json"
   ],
@@ -7296,9 +7425,21 @@
   "The complete visual presentation.": [
     "gravewright/table/messages.json"
   ],
+  "The data directory must be separate from the project root.": [
+    "scripts/gravewright_runner.py"
+  ],
   "The deck was created. Try again to add it to the table.": [
     "gravewright/maps/frontend/features/table-library/ui/DeckUpload.native.js",
     "gravewright/table/static/gravewright_table/media-workspace.js"
+  ],
+  "The default marketplace key file failed its integrity check.": [
+    "scripts/gravewright_runner.py"
+  ],
+  "The default marketplace public keys are invalid.": [
+    "scripts/gravewright_runner.py"
+  ],
+  "The default marketplace redirected to an insecure address.": [
+    "scripts/gravewright_runner.py"
   ],
   "The description must be at most 500 characters.": [
     "gravewright/accounts/messages.json"
@@ -7371,6 +7512,15 @@
   "The new password does not meet the requirements.": [
     "gravewright/table/tool_messages.json"
   ],
+  "The official Translator does not contain pt-BR catalogs.": [
+    "scripts/gravewright_runner.py"
+  ],
+  "The official Translator signing key conflicts with the configured trust store.": [
+    "scripts/gravewright_runner.py"
+  ],
+  "The official catalog has no compatible Translator release.": [
+    "scripts/gravewright_runner.py"
+  ],
   "The operation failed. Check the file or connection and try again.": [
     "gravewright/web/static/gravewright_web/inside/management.js"
   ],
@@ -7424,6 +7574,9 @@
   ],
   "The server could not read that formula.": [
     "gravewright/table/tool_messages.json"
+  ],
+  "The server could not start. Check the Runner log for details.": [
+    "scripts/gravewright_runner.py"
   ],
   "The shader exceeds the limit of 32,000 characters. Ask your AI for a shorter version.": [
     "gravewright/maps/frontend/features/effects/ui/shader-prompt-dialog.js"
@@ -7708,6 +7861,9 @@
   "Translator installed. Open Installed modules to activate languages for this installation.": [
     "gravewright/web/static/gravewright_web/inside/management.js"
   ],
+  "Translator {version} is installed and active for pt-BR.": [
+    "scripts/gravewright_runner.py"
+  ],
   "TransportError": [
     "gravewright/maps/frontend/shared/api/api-error.js",
     "gravewright/modules/static/gravewright_modules/api-error.js"
@@ -7979,6 +8135,9 @@
   "Upper height must be greater than lower height.": [
     "gravewright/maps/static/gravewright_maps/layers.js"
   ],
+  "Use 1-65535.": [
+    "scripts/gravewright_runner.py"
+  ],
   "Use a PNG, JPEG or WEBP image.": [
     "gravewright/table/tool_messages.json"
   ],
@@ -7995,6 +8154,9 @@
     "gravewright/table/messages.json",
     "gravewright/table/tool_messages.json"
   ],
+  "Use en / pt-BR.": [
+    "scripts/gravewright_runner.py"
+  ],
   "Use preset": [
     "gravewright/dice/jinja2/gravewright_dice/presets.html"
   ],
@@ -8007,8 +8169,14 @@
   "Use the permissions button in the titlebar to set who can view and edit.": [
     "gravewright/table/tool_messages.json"
   ],
+  "Use this port for this run without editing configuration.": [
+    "scripts/gravewright_runner.py"
+  ],
   "Use three distant cells to eliminate accumulated error.": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Use y/n.": [
+    "scripts/gravewright_runner.py"
   ],
   "Used by your pings, markers, and measurements to identify you at the table.": [
     "gravewright/table/tool_messages.json"
