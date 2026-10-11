@@ -19,12 +19,14 @@ class Command(BaseCommand):
         parser.add_argument('--output', type=Path, default=Path('dist'))
 
     def handle(self, *args, **options):
-        source = json.loads((ROOT / 'catalogs/en.json').read_text())
+        source = json.loads((ROOT / 'catalogs/en.json').read_text(encoding='utf-8'))
         files = {name: (ROOT / 'package' / name).read_bytes() for name in ('manifest.json', 'main.js')}
+        if json.loads(files['manifest.json'])['version'] != __version__:
+            raise CommandError('Manifest version must match the package version.')
         report = {}
         for locale in ('pt-BR', 'es'):
             path = ROOT / 'catalogs' / f'{locale}.json'
-            catalog = json.loads(path.read_text())
+            catalog = json.loads(path.read_text(encoding='utf-8'))
             if set(catalog) != set(source):
                 raise CommandError(f'{locale}: missing/extra sources: {set(source) ^ set(catalog)}')
             for text, translated in catalog.items():
@@ -35,7 +37,7 @@ class Command(BaseCommand):
             report[locale] = {'entries': len(catalog), 'missing': 0,
                               'unchanged': sum(key == value for key, value in catalog.items())}
         files['LICENSE.txt'] = (ROOT / 'LICENSE.txt').read_bytes()
-        output = options['output']
+        output = Path(options['output'])
         output.mkdir(parents=True, exist_ok=True)
         target = output / f'translator-{__version__}.zip'
         with zipfile.ZipFile(target, 'w', compression=zipfile.ZIP_DEFLATED) as archive:

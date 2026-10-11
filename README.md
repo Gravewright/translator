@@ -2,7 +2,7 @@
 
 Translator is an extensible translation engine for Gravewright VTT. It centralizes interface translations in language catalogs and integrates language selection with each user's account settings. English, Brazilian Portuguese and Spanish are the initial catalogs, not a fixed limit on supported languages. The owner activates it in **Installed modules**. Each user then chooses **Settings → Interface language**. No language selector appears in table settings and the module cannot be activated per campaign.
 
-**Preview compatibility:** v0.1.0 requires the Gravewright host changes that implement `manifest.locales`, global package activation and account locale preferences. It does not work on older hosts that only support per-table JavaScript modules. Those integration changes are currently in the development checkout; this release is a prerelease, not a declaration of compatibility with every SDK 1.0 host.
+**Compatibility:** v0.1.1 requires a current Gravewright host with declarative language packages, installation-wide activation and account locale preferences. This release adds reviewed translations for document permissions, sharing, map references, window controls and package update/removal. It also carries the reviewed Runner messages from the source repository.
 
 ## Install
 
@@ -22,7 +22,9 @@ PYTHONPATH=../translator DJANGO_SETTINGS_MODULE=gravewright_translator.dev_setti
 
 `build_translator` checks matching source sets and placeholders, then writes a deterministic ZIP, SHA-256 checksum and catalog coverage report. To extract an updated source inventory, run `extract_translator --source . --output ../translator/source-inventory.json` with the same environment. Update all supported language catalogs and review translations before releasing. Additional languages can be added with their own catalog and a corresponding entry in the package manifest.
 
-Sign the completed archive using `scripts/sign_release.py --key /outside/repository/key.pem --archive dist/translator-0.1.0.zip --output dist/catalog.json`. The signing environment needs `cryptography`. Keep the private key outside repositories. The public key belongs in the trusted marketplace configuration.
+Production releases are built, signed and published through the Marketplace's **Sign and publish package** GitHub Actions workflow. Select `translator` and the exact source commit; signing uses the protected `release-signing` environment. ZIPs and signed catalog records are hosted in [Marketplace releases](https://github.com/Gravewright/marketplace/releases).
+
+For an independently managed signing environment, `scripts/sign_release.py --key /outside/repository/key.pem --key-id YOUR_KEY_ID --archive dist/translator-0.1.1.zip --output dist/catalog.json` reads the version from the archive. Keep the private key outside repositories and configure its public key on the host.
 
 ## Validation
 
@@ -31,7 +33,7 @@ Sign the completed archive using `scripts/sign_release.py --key /outside/reposit
 ../gravewright/.venv/bin/python tests/browser.py --host ../gravewright --keys ../marketplace/trusted-keys.json --online
 ```
 
-The offline test loads the signed local ZIP into an isolated host using the Django authoring app. Its database and media are removed afterward. The online test starts with a fresh database, no offline package and no Translator Django app in `INSTALLED_APPS`; Chromium installs the actual public release through the marketplace and repeats the language checks. Reports/screenshots go to ignored `test-results/`.
+The offline test installs the built local ZIP into an isolated host using the Django authoring app. Its database and media are removed afterward. The online test starts with a fresh database, no offline package and no Translator Django app in `INSTALLED_APPS`; Chromium installs the actual public release through the marketplace and repeats the language checks. Reports/screenshots go to ignored `test-results/`.
 
 ## Coverage and limits
 

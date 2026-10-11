@@ -58,6 +58,9 @@
     "gravewright/maps/static/gravewright_maps/sources/sources.js",
     "gravewright/maps/static/gravewright_maps/tools.js"
   ],
+  "A custom marketplace is already configured.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "A module could not load correctly. Refresh to retry.": [
     "gravewright/modules/static/gravewright_modules/workspace.js"
   ],
@@ -130,6 +133,9 @@
   "Access your tables, sheets, scenes, and campaigns.": [
     "gravewright/accounts/messages.json"
   ],
+  "Accounts": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "Accounts, campaign documents and uploaded assets are stored by the host of this installation.": [
     "gravewright/web/jinja2/gravewright_web/inside/shell.html"
   ],
@@ -173,6 +179,9 @@
   ],
   "Activate this scene before mapping its grid.": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Activate trusted Django server code and restart server": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "Activated as": [
     "gravewright/table/tool_messages.json"
@@ -416,6 +425,13 @@
   "All events": [
     "gravewright/table/tool_messages.json"
   ],
+  "All packages": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
+  "All players": [
+    "gravewright\\journals\\static\\gravewright_journals\\presentation.js",
+    "gravewright\\table\\static\\gravewright_table\\permissions.js"
+  ],
   "All systems": [
     "gravewright/web/inside_messages.json"
   ],
@@ -574,6 +590,9 @@
   "Another adventure": [
     "gravewright/web/inside_messages.json"
   ],
+  "Another server operation is running. Wait for it to finish before activating Django apps.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "Another turn interruption is already active.": [
     "gravewright/table/tool_messages.json"
   ],
@@ -591,11 +610,17 @@
   "Application name": [
     "gravewright/table/tool_messages.json"
   ],
+  "Apply access to documents directly inside this folder. Subfolders are excluded.": [
+    "gravewright\\table\\static\\gravewright_table\\permissions.js"
+  ],
   "Apply calibration": [
     "gravewright/table/tool_messages.json"
   ],
   "Apply preset": [
     "gravewright/maps/frontend/features/effects/model/legacy-labels.js"
+  ],
+  "Applying migrations": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "Arcane": [
     "gravewright/maps/frontend/features/effects/model/legacy-labels.js",
@@ -744,6 +769,9 @@
   "Automatic (before a restore)": [
     "gravewright/table/tool_messages.json"
   ],
+  "Automatic installation is available through the Gravewright launcher on Windows, Linux and macOS. Restart using the updated launcher.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "Available": [
     "gravewright/table/tool_messages.json"
   ],
@@ -778,6 +806,9 @@
   "Back to the pages": [
     "gravewright/table/tool_messages.json"
   ],
+  "Backing up database and files": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "Backspace": [
     "gravewright/maps/frontend/features/cards/ui/SceneCardWorkspace.native.js",
     "gravewright/maps/frontend/features/drawing/ui/DrawingWorkspace.native.js",
@@ -795,6 +826,15 @@
   ],
   "Backup": [
     "gravewright/web/inside_messages.json"
+  ],
+  "Backup created": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
+  "Backup restored": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
+  "Backups": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "Balanced": [
     "gravewright/table/messages.json"
@@ -951,6 +991,12 @@
     "gravewright/maps/frontend/features/scene-layers/lib/shader-presets.js",
     "gravewright/maps/static/gravewright_maps/sources/sources.js",
     "gravewright/maps/static/gravewright_maps/tools.js"
+  ],
+  "Built into Gravewright. Available when creating a table.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
+  "Built-in": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "Bullet list": [
     "gravewright/table/tool_messages.json"
@@ -1154,15 +1200,24 @@
   "Chat result": [
     "gravewright/table/tool_messages.json"
   ],
+  "Check failed": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "Check for updates": [
     "gravewright/table/tool_messages.json",
     "gravewright/web/jinja2/gravewright_web/inside/administration.html"
+  ],
+  "Check for updates to load published releases.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "Check health": [
     "gravewright/table/messages.json"
   ],
   "Check marketplace configuration": [
     "gravewright/web/jinja2/gravewright_web/inside/modules.html"
+  ],
+  "Check the marketplace configuration on the host.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "Check the official release channel and download verified builds.": [
     "gravewright/table/tool_messages.json"
@@ -1176,6 +1231,9 @@
   "CheckCircle": [
     "gravewright/journals/static/gravewright_journals/types.js"
   ],
+  "Checking catalog…": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "Checking official releases…": [
     "gravewright/table/tool_messages.json"
   ],
@@ -1185,11 +1243,17 @@
   "Choose PDF": [
     "gravewright/pdf_system/jinja2/gravewright_pdf_system/sheet.html"
   ],
+  "Choose a ZIP smaller than 256 MB.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "Choose a campaign": [
     "gravewright/web/jinja2/gravewright_web/inside/administration.html"
   ],
   "Choose a command from the / menu.": [
     "gravewright/table/static/gravewright_table/realtime.js"
+  ],
+  "Choose a document.": [
+    "gravewright\\table\\static\\gravewright_table\\references.js"
   ],
   "Choose a location to place the token on the map": [
     "gravewright/table/tool_messages.json"
@@ -1230,6 +1294,9 @@
   "Choose access for each player.": [
     "gravewright/actors/jinja2/gravewright_actors/workspace.html"
   ],
+  "Choose at least one player.": [
+    "gravewright\\journals\\static\\gravewright_journals\\presentation.js"
+  ],
   "Choose between 1 and 1,000 faces.": [
     "gravewright/dice/static/gravewright_dice/tray.js"
   ],
@@ -1251,8 +1318,14 @@
   "Choose system": [
     "gravewright/table/tool_messages.json"
   ],
+  "Choose the default access and exceptions for each player.": [
+    "gravewright\\table\\static\\gravewright_table\\permissions.js"
+  ],
   "Choose the ruleset used by this campaign.": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Choose the view used when this scene opens.": [
+    "gravewright\\maps\\static\\gravewright_maps\\workspace.js"
   ],
   "Choose where to display token conditions on this device.": [
     "gravewright/accounts/jinja2/gravewright_accounts/settings/account.html"
@@ -1524,11 +1597,17 @@
     "gravewright/maps/static/gravewright_maps/layers.js",
     "gravewright/table/tool_messages.json"
   ],
+  "Configure access for each table role.": [
+    "gravewright\\table\\static\\gravewright_table\\permissions.js"
+  ],
   "Configure door": [
     "gravewright/maps/static/gravewright_maps/layers.js"
   ],
   "Configure module": [
     "gravewright/table/messages.json"
+  ],
+  "Configure ownership": [
+    "gravewright\\journals\\static\\gravewright_journals\\presentation.js"
   ],
   "Configure privacy policy, public notices and compliance options.": [
     "gravewright/table/tool_messages.json"
@@ -1723,6 +1802,9 @@
   "Could not install or verify the required pt-BR Translator. Check your connection, signing keys and module files, then retry.": [
     "scripts/gravewright_runner.py"
   ],
+  "Could not install the default marketplace. Check the server connection and try again.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "Could not load administrative history.": [
     "gravewright/table/tool_messages.json"
   ],
@@ -1788,6 +1870,9 @@
     "gravewright/maps/frontend/features/audio/ui/SoundtrackPanel.native.js",
     "gravewright/table/static/gravewright_table/media-workspace.js"
   ],
+  "Could not read the local installation configuration.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "Could not remove the image.": [
     "gravewright/maps/frontend/features/images/ui/ImageWorkspace.native.js",
     "gravewright/maps/static/gravewright_maps/tools.js"
@@ -1805,6 +1890,9 @@
   "Could not save": [
     "gravewright/table/tool_messages.json"
   ],
+  "Could not save permissions.": [
+    "gravewright\\table\\static\\gravewright_table\\permissions.js"
+  ],
   "Could not save the change.": [
     "gravewright/maps/frontend/native/tools.js",
     "gravewright/table/static/gravewright_table/campaign-controls.js"
@@ -1818,12 +1906,18 @@
     "gravewright/maps/frontend/features/audio/ui/SoundtrackPanel.native.js",
     "gravewright/table/static/gravewright_table/media-workspace.js"
   ],
+  "Could not save the policy. Check the fields and try again.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "Could not save the wall. Check the data and try again.": [
     "gravewright/maps/frontend/features/walls/ui/walls.js",
     "gravewright/maps/static/gravewright_maps/walls/ui/walls.js"
   ],
   "Could not send the message. Please try again.": [
     "gravewright/table/static/gravewright_table/realtime.js"
+  ],
+  "Could not start the update. Check for local changes, another update or a changed release.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "Could not update playback.": [
     "gravewright/maps/frontend/features/audio/ui/SoundtrackPanel.native.js",
@@ -1941,6 +2035,9 @@
   "Create compendium": [
     "gravewright/table/static/gravewright_table/directories.js"
   ],
+  "Create copy": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "Create deck": [
     "gravewright/table/tool_messages.json"
   ],
@@ -2056,12 +2153,18 @@
   "Current scene": [
     "gravewright/table/messages.json"
   ],
+  "Current view captured. Save to apply.": [
+    "gravewright\\maps\\static\\gravewright_maps\\workspace.js"
+  ],
   "Custom": [
     "gravewright/maps/frontend/features/effects/model/legacy-labels.js"
   ],
   "Custom shader": [
     "gravewright/maps/frontend/features/effects/ui/EffectPicker.native.js",
     "gravewright/maps/static/gravewright_maps/tools.js"
+  ],
+  "Customize": [
+    "gravewright\\modules\\static\\gravewright_modules\\workspace.js"
   ],
   "D": [
     "scripts/reviewed.json"
@@ -2123,6 +2226,9 @@
     "gravewright/table/messages.json",
     "gravewright/table/tool_messages.json"
   ],
+  "Deactivate Django app and restart server": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "Deactivate all": [
     "gravewright/table/messages.json"
   ],
@@ -2168,6 +2274,9 @@
   ],
   "Decline": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Default": [
+    "gravewright\\table\\static\\gravewright_table\\permissions.js"
   ],
   "Default marketplace installation skipped.": [
     "scripts/gravewright_runner.py"
@@ -2498,6 +2607,9 @@
     "gravewright/maps/static/gravewright_maps/layers.js",
     "gravewright/table/tool_messages.json"
   ],
+  "Download": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "Download original PDF": [
     "gravewright/pdf_system/jinja2/gravewright_pdf_system/sheet.html"
   ],
@@ -2509,6 +2621,12 @@
   ],
   "Download verified update": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Downloading package…": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
+  "Downloading release": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "Draft": [
     "gravewright/table/tool_messages.json"
@@ -3359,6 +3477,9 @@
   "Grid": [
     "gravewright/table/tool_messages.json"
   ],
+  "Grid and scale": [
+    "gravewright\\maps\\jinja2\\gravewright_maps\\forms.html"
+  ],
   "Grid calibration": [
     "gravewright/maps/jinja2/gravewright_maps/calibration.html",
     "gravewright/table/messages.json",
@@ -3647,9 +3768,15 @@
     "gravewright/maps/static/gravewright_maps/sources/sources.js",
     "gravewright/maps/static/gravewright_maps/tools.js"
   ],
+  "Inherit from journal": [
+    "gravewright\\table\\static\\gravewright_table\\permissions.js"
+  ],
   "Initial state": [
     "gravewright/maps/jinja2/gravewright_maps/lighting.html",
     "gravewright/table/tool_messages.json"
+  ],
+  "Initial view": [
+    "gravewright\\maps\\jinja2\\gravewright_maps\\forms.html"
   ],
   "Initiative": [
     "gravewright/pdf_system/frontend/mapping.js",
@@ -3657,11 +3784,18 @@
     "gravewright/table/static/gravewright_table/combat-panel.js",
     "gravewright/table/tool_messages.json"
   ],
+  "Insert": [
+    "gravewright\\table\\static\\gravewright_table\\references.js"
+  ],
   "Insert block": [
     "gravewright/journals/static/gravewright_journals/editor.js"
   ],
   "Insert into editor": [
     "gravewright/maps/frontend/features/effects/ui/shader-prompt-dialog.js"
+  ],
+  "Insert reference": [
+    "gravewright\\journals\\static\\gravewright_journals\\editor.js",
+    "gravewright\\table\\static\\gravewright_table\\references.js"
   ],
   "Inspect": [
     "gravewright/table/tool_messages.json"
@@ -3690,12 +3824,24 @@
   "Installation": [
     "gravewright/table/tool_messages.json"
   ],
+  "Installation complete": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
+  "Installation failed": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
+  "Installation interrupted. Refresh to check the result.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "Installed": [
     "gravewright/table/tool_messages.json",
     "gravewright/web/static/gravewright_web/inside/management.js"
   ],
   "Installed modules": [
     "scripts/reviewed.json"
+  ],
+  "Installed version": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "Installed version is ahead of the selected channel": [
     "gravewright/table/tool_messages.json"
@@ -3916,10 +4062,22 @@
   "Language (en, pt-BR)": [
     "scripts/gravewright_runner.py"
   ],
+  "Language options changed": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
+  "Languages activated": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
+  "Languages deactivated": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "Large flakes and ice crystals blown in a whirlwind.": [
     "gravewright/maps/frontend/features/scene-layers/lib/shader-presets.js",
     "gravewright/maps/static/gravewright_maps/sources/sources.js",
     "gravewright/maps/static/gravewright_maps/tools.js"
+  ],
+  "Last check": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "Last update: {date}": [
     "gravewright/table/tool_messages.json"
@@ -4008,6 +4166,10 @@
   "Limit by elevation": [
     "gravewright/maps/jinja2/gravewright_maps/layers.html"
   ],
+  "Limited": [
+    "gravewright\\journals\\static\\gravewright_journals\\presentation.js",
+    "gravewright\\table\\static\\gravewright_table\\permissions.js"
+  ],
   "Line": [
     "gravewright/maps/frontend/features/drawing/ui/DrawingWorkspace.native.js",
     "gravewright/maps/frontend/features/measurement/ui/MeasurementWorkspace.native.js",
@@ -4056,6 +4218,9 @@
   ],
   "Lobby and ready check": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Local package installed from ZIP.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "Local port (1-65535)": [
     "scripts/gravewright_runner.py"
@@ -4348,8 +4513,14 @@
     "gravewright/dice/static/gravewright_dice/presets.js",
     "gravewright/table/tool_messages.json"
   ],
+  "Module activated": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "Module cleanup timed out": [
     "gravewright/modules/static/gravewright_modules/lifetime.js"
+  ],
+  "Module operation failed.": [
+    "gravewright\\modules\\static\\gravewright_modules\\package-actions.js"
   ],
   "Module recovery required": [
     "gravewright/modules/static/gravewright_modules/workspace.js"
@@ -4558,6 +4729,9 @@
   "New title (optional)": [
     "gravewright/table/tool_messages.json"
   ],
+  "Newer than this channel": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "Next": [
     "gravewright/table/static/gravewright_table/combat-panel.js",
     "gravewright/table/tool_messages.json"
@@ -4608,6 +4782,9 @@
   "No add-ons installed yet.": [
     "gravewright/table/tool_messages.json"
   ],
+  "No administrative activity recorded yet.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "No administrative events recorded.": [
     "gravewright/table/tool_messages.json"
   ],
@@ -4626,6 +4803,13 @@
   "No campaigns have been created yet.": [
     "gravewright/table/tool_messages.json"
   ],
+  "No change": [
+    "gravewright\\journals\\static\\gravewright_journals\\presentation.js",
+    "gravewright\\table\\static\\gravewright_table\\permissions.js"
+  ],
+  "No change shows the document temporarily. Choose an access level to also grant permanent access. Higher permissions are preserved.": [
+    "gravewright\\journals\\static\\gravewright_journals\\presentation.js"
+  ],
   "No character": [
     "gravewright/table/static/gravewright_table/table-tools.js",
     "gravewright/table/tool_messages.json"
@@ -4639,6 +4823,9 @@
   ],
   "No combat is active.": [
     "gravewright/table/tool_messages.json"
+  ],
+  "No compatible packages of this type are available.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "No content packages are active for this table.": [
     "gravewright/table/tool_messages.json"
@@ -4654,6 +4841,9 @@
   ],
   "No enabled rulesets are available. Enable a ruleset in the Rulesets panel.": [
     "gravewright/table/tool_messages.json"
+  ],
+  "No events match these filters.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "No extension installed yet. Modules dropped into the project appear here.": [
     "gravewright/table/messages.json"
@@ -4701,6 +4891,12 @@
   "No map has been drawn, no hero has answered the call. There is only the hush before the first line. Begin with the scenes or the characters: every legend needed a first stroke.": [
     "gravewright/table/messages.json"
   ],
+  "No marketplace is configured for this installation.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
+  "No matching packages.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "No messages have been sent yet.": [
     "gravewright/table/tool_messages.json"
   ],
@@ -4733,6 +4929,9 @@
   ],
   "No registered user was found with this email.": [
     "gravewright/table/tool_messages.json"
+  ],
+  "No release notes.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "No results found.": [
     "gravewright/journals/static/gravewright_journals/pdf.js"
@@ -4863,6 +5062,10 @@
   ],
   "Objectives, rewards and GM notes can be edited after creating the quest.": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Observer": [
+    "gravewright\\journals\\static\\gravewright_journals\\presentation.js",
+    "gravewright\\table\\static\\gravewright_table\\permissions.js"
   ],
   "Ocean Abyss": [
     "gravewright/maps/frontend/features/scene-layers/lib/shader-presets.js",
@@ -5086,6 +5289,9 @@
   "Owner": [
     "gravewright/table/tool_messages.json"
   ],
+  "Owner (always)": [
+    "gravewright\\table\\static\\gravewright_table\\permissions.js"
+  ],
   "Owner / editing": [
     "gravewright/journals/jinja2/gravewright_journals/workspace.html"
   ],
@@ -5139,6 +5345,12 @@
   "Package file (.zip)": [
     "gravewright/table/tool_messages.json"
   ],
+  "Package installed": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
+  "Package installed. It is now in your library.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "Packages": [
     "gravewright/table/tool_messages.json"
   ],
@@ -5156,6 +5368,9 @@
   ],
   "Page": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Page access also requires access to the journal.": [
+    "gravewright\\table\\static\\gravewright_table\\permissions.js"
   ],
   "Page content": [
     "gravewright/journals/static/gravewright_journals/editor.js",
@@ -5637,6 +5852,9 @@
   "Players": [
     "gravewright/table/tool_messages.json"
   ],
+  "Players can view an allowed scene while it is active and visible to players.": [
+    "gravewright\\table\\static\\gravewright_table\\permissions.js"
+  ],
   "Players only see what tokens and lights reach. Walls block sight.": [
     "gravewright/table/tool_messages.json"
   ],
@@ -5708,6 +5926,12 @@
   ],
   "Prepare your first session": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Preparing Django apps. The server will restart automatically.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
+  "Preparing dependencies": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "Preparing map…": [
     "gravewright/table/messages.json",
@@ -5830,6 +6054,9 @@
   ],
   "Public policy": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Published version": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "Pulse": [
     "gravewright/maps/frontend/features/lighting/model/light-profiles.js",
@@ -6026,6 +6253,9 @@
     "gravewright/maps/frontend/features/tokens/ui/controller.js",
     "gravewright/tokens/static/gravewright_tokens/controller.js"
   ],
+  "Reload permissions": [
+    "gravewright\\table\\static\\gravewright_table\\permissions.js"
+  ],
   "Removal code": [
     "gravewright/table/tool_messages.json",
     "gravewright/web/inside_messages.json"
@@ -6067,6 +6297,12 @@
   "Remove image": [
     "gravewright/journals/jinja2/gravewright_journals/types.html",
     "gravewright/web/inside_messages.json"
+  ],
+  "Remove it anyway?": [
+    "gravewright\\modules\\static\\gravewright_modules\\package-actions.js"
+  ],
+  "Remove marker": [
+    "gravewright\\maps\\static\\gravewright_maps\\journal-pins.js"
   ],
   "Remove objective": [
     "gravewright/journals/jinja2/gravewright_journals/types.html"
@@ -6168,11 +6404,20 @@
   "Replace the existing ruleset?": [
     "gravewright/table/tool_messages.json"
   ],
+  "Replaces project files, including launchers. Keep .old to retain a rollback copy after success. Temporary recovery is always available during installation. Open tables will disconnect.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
+  "Replacing project files": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "Reset": [
     "gravewright/table/tool_messages.json"
   ],
   "Reset password": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Reset window layout": [
+    "gravewright\\web\\static\\gravewright_web\\windows.js"
   ],
   "Resolved channel": [
     "gravewright/table/tool_messages.json"
@@ -6185,6 +6430,9 @@
   ],
   "Resource type": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Restarting server": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "Restore": [
     "gravewright/table/tool_messages.json",
@@ -6201,6 +6449,9 @@
   ],
   "Restores the campaign's complete persistent state, including actors, items, journals, scenes, tokens, combat, chat, permissions, and physical files. Only global accounts, sessions, audit data, and snapshot history are excluded.": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Restoring previous version": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "Result": [
     "gravewright/journals/jinja2/gravewright_journals/types.html",
@@ -6472,12 +6723,21 @@
   "Save settings": [
     "gravewright/table/tool_messages.json"
   ],
+  "Save the journal before creating its marker.": [
+    "gravewright\\maps\\static\\gravewright_maps\\journal-pins.js"
+  ],
   "Save this code now. It will only be shown in full once.": [
     "gravewright/table/tool_messages.json"
   ],
   "Saved": [
     "gravewright/journals/static/gravewright_journals/workspace.js",
     "gravewright/table/tool_messages.json"
+  ],
+  "Saved. The policy is hidden on login.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
+  "Saved. The policy is visible on login.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "Saving…": [
     "gravewright/journals/static/gravewright_journals/workspace.js",
@@ -6536,11 +6796,17 @@
     "gravewright/maps/frontend/features/selection/ui/selection-workspace.js",
     "gravewright/maps/static/gravewright_maps/tools.js"
   ],
+  "Scene rebuild": [
+    "gravewright\\maps\\frontend\\features\\images\\model\\image-preview.test.js"
+  ],
   "Scene removed.": [
     "gravewright/table/tool_messages.json"
   ],
   "Scene root": [
     "gravewright/table/messages.json"
+  ],
+  "Scene settings": [
+    "gravewright\\maps\\jinja2\\gravewright_maps\\forms.html"
   ],
   "Scene shader": [
     "gravewright/maps/frontend/features/effects/model/legacy-labels.js",
@@ -6652,6 +6918,9 @@
     "gravewright/table/messages.json",
     "gravewright/table/tool_messages.json"
   ],
+  "Search sheets, items and journals": [
+    "gravewright\\table\\static\\gravewright_table\\references.js"
+  ],
   "Search tables": [
     "gravewright/web/inside_messages.json"
   ],
@@ -6702,6 +6971,9 @@
   ],
   "Select (S)": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Select a ZIP file.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "Select a module to view its settings.": [
     "gravewright/table/tool_messages.json"
@@ -6893,6 +7165,9 @@
   "Show front": [
     "gravewright/table/tool_messages.json"
   ],
+  "Show game masters": [
+    "gravewright\\table\\static\\gravewright_table\\permissions.js"
+  ],
   "Show grid": [
     "gravewright/table/messages.json",
     "gravewright/table/tool_messages.json"
@@ -6906,6 +7181,12 @@
   "Show privacy policy on login": [
     "gravewright/table/tool_messages.json"
   ],
+  "Show this page temporarily. GM-only content stays hidden.": [
+    "gravewright\\journals\\static\\gravewright_journals\\presentation.js"
+  ],
+  "Show to": [
+    "gravewright\\journals\\static\\gravewright_journals\\presentation.js"
+  ],
   "Show to Players": [
     "gravewright/table/tool_messages.json"
   ],
@@ -6918,6 +7199,9 @@
   ],
   "Sign in": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Sign in again": [
+    "gravewright\\modules\\static\\gravewright_modules\\workspace.js"
   ],
   "Sign out": [
     "gravewright/accounts/messages.json",
@@ -7098,6 +7382,9 @@
     "gravewright/maps/static/gravewright_maps/sources/sources.js",
     "gravewright/maps/static/gravewright_maps/tools.js"
   ],
+  "Start Gravewright with the 0.1.2 or newer Runner or main.py to activate Django apps. When upgrading from 0.1.1, replace the old launcher using the new release ZIP and installer.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "Start a campaign": [
     "gravewright/web/inside_messages.json"
   ],
@@ -7220,11 +7507,20 @@
   "Table assets": [
     "gravewright/maps/static/gravewright_maps/tools.js"
   ],
+  "Table compendiums": [
+    "gravewright/table/messages.json"
+  ],
+  "Table copied": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "Table details": [
     "gravewright/table/tool_messages.json"
   ],
   "Table exported": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Table imported": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "Table invitation": [
     "gravewright/web/inside_messages.json"
@@ -7276,6 +7572,9 @@
   ],
   "Tables that invited you to participate.": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Tables using this system will use Gravewright PDF System.": [
+    "gravewright\\modules\\static\\gravewright_modules\\package-actions.js"
   ],
   "Tag": [
     "gravewright/journals/static/gravewright_journals/types.js"
@@ -7368,6 +7667,12 @@
     "gravewright/pdf_system/frontend/controller.js",
     "gravewright/pdf_system/static/gravewright_pdf_system/controller.js"
   ],
+  "The ZIP exceeds the 64 MiB package limit.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
+  "The ZIP is not a valid package for this library.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "The action could not be completed.": [
     "gravewright/table/tool_messages.json"
   ],
@@ -7431,6 +7736,9 @@
   "The deck was created. Try again to add it to the table.": [
     "gravewright/maps/frontend/features/table-library/ui/DeckUpload.native.js",
     "gravewright/table/static/gravewright_table/media-workspace.js"
+  ],
+  "The default marketplace is installed and ready.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "The default marketplace key file failed its integrity check.": [
     "scripts/gravewright_runner.py"
@@ -7578,6 +7886,12 @@
   "The server could not start. Check the Runner log for details.": [
     "scripts/gravewright_runner.py"
   ],
+  "The server is still restarting.": [
+    "gravewright\\modules\\static\\gravewright_modules\\package-actions.js"
+  ],
+  "The server is still unavailable. Check the host update log before retrying.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "The shader exceeds the limit of 32,000 characters. Ask your AI for a shorter version.": [
     "gravewright/maps/frontend/features/effects/ui/shader-prompt-dialog.js"
   ],
@@ -7618,6 +7932,9 @@
   "The whole map is visible to everyone. Nothing hides anything.": [
     "gravewright/table/tool_messages.json"
   ],
+  "The window could not open. Allow pop-ups for this site and try again.": [
+    "gravewright\\table\\static\\gravewright_table\\window-controls.js"
+  ],
   "The world is still unwritten": [
     "gravewright/table/messages.json"
   ],
@@ -7640,6 +7957,9 @@
   ],
   "Third-person emote": [
     "gravewright/table/tool_messages.json"
+  ],
+  "This ID and version are already installed with different contents.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "This action cannot be undone.": [
     "gravewright/maps/jinja2/gravewright_maps/layers.html"
@@ -7714,8 +8034,14 @@
   "This map image type is not supported.": [
     "gravewright/table/tool_messages.json"
   ],
+  "This module is used by these tables:": [
+    "gravewright\\modules\\static\\gravewright_modules\\package-actions.js"
+  ],
   "This package has no content.": [
     "gravewright/table/tool_messages.json"
+  ],
+  "This package is not compatible with the current SDK.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "This package runs trusted JavaScript in the table for everyone in your campaigns. Continue only if you trust the author?": [
     "gravewright/table/tool_messages.json"
@@ -7725,6 +8051,9 @@
   ],
   "This page has no file yet.": [
     "gravewright/journals/static/gravewright_journals/workspace.js"
+  ],
+  "This page is GM-only. Make it public before sharing access.": [
+    "gravewright\\table\\static\\gravewright_table\\permissions.js"
   ],
   "This permanently removes this snapshot.": [
     "gravewright/web/static/gravewright_web/inside/management.js"
@@ -7768,6 +8097,9 @@
   ],
   "This system does not roll initiative.": [
     "gravewright/table/tool_messages.json"
+  ],
+  "This system is used by these tables:": [
+    "gravewright\\modules\\static\\gravewright_modules\\package-actions.js"
   ],
   "This system orders combat by the initiative value.": [
     "gravewright/table/tool_messages.json"
@@ -7925,6 +8257,9 @@
   "Type at least two characters to search.": [
     "gravewright/table/tool_messages.json"
   ],
+  "Type at least two characters.": [
+    "gravewright\\table\\static\\gravewright_table\\references.js"
+  ],
   "Type text…": [
     "gravewright/table/tool_messages.json"
   ],
@@ -8037,19 +8372,38 @@
     "gravewright/dice/jinja2/gravewright_dice/presets.html"
   ],
   "Up to date": [
-    "gravewright/table/tool_messages.json"
+    "gravewright\\table\\tool_messages.json",
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
+  "Update": [
+    "gravewright\\modules\\static\\gravewright_modules\\workspace.js"
   ],
   "Update available": [
     "gravewright/table/tool_messages.json"
   ],
+  "Update channel changed": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
+  "Update check": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "Update check failed": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Update installed": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
+  "Update queued": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "Update status": [
     "gravewright/table/tool_messages.json"
   ],
   "Update this table's presentation details.": [
     "gravewright/web/inside_messages.json"
+  ],
+  "Updates": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "Upload": [
     "gravewright/table/tool_messages.json"
@@ -8215,6 +8569,12 @@
   "Value per cell": [
     "gravewright/table/messages.json"
   ],
+  "Verifying release": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
+  "Verifying signature and installing…": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "Version {version}": [
     "gravewright/table/tool_messages.json"
   ],
@@ -8300,6 +8660,9 @@
   "Waiting for the GM.": [
     "gravewright/table/static/gravewright_table/combat-panel.js",
     "gravewright/table/tool_messages.json"
+  ],
+  "Waiting for the server to restart…": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
   ],
   "Wall": [
     "gravewright/maps/frontend/features/selection/model/objects.js",
@@ -8547,6 +8910,9 @@
   "Your library": [
     "gravewright/web/inside_messages.json"
   ],
+  "Your library is empty. Use Install to add packages.": [
+    "gravewright\\web\\static\\gravewright_web\\inside\\management.js"
+  ],
   "Your name": [
     "gravewright/accounts/messages.json",
     "gravewright/table/tool_messages.json"
@@ -8572,6 +8938,9 @@
   ],
   "Your session expired. Try again.": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Your session is no longer valid. Sign in again to load table modules.": [
+    "gravewright\\modules\\static\\gravewright_modules\\workspace.js"
   ],
   "Your table is created and ready to configure.": [
     "gravewright/table/tool_messages.json"

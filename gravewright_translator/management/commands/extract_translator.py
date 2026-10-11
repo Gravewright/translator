@@ -19,14 +19,16 @@ def inventory(source):
         elif isinstance(value, list):
             for item in value:walk(item, origin)
     for path in (source / 'gravewright').rglob('*messages*.json'):
-        walk(json.loads(path.read_text()), str(path.relative_to(source)))
+        walk(json.loads(path.read_text(encoding='utf-8')), str(path.relative_to(source)))
     for path in (source / 'gravewright').rglob('*.html'):
-        parser = StaticText(); parser.feed(path.read_text()); parser.close()
+        if 'node_modules' in path.parts or not path.is_file():continue
+        parser = StaticText(); parser.feed(path.read_text(encoding='utf-8')); parser.close()
         for text in parser.strings:add(text, str(path.relative_to(source)))
     quoted = re.compile(r'"((?:\\.|[^"\\])*)"|\x27((?:\\.|[^\x27\\])*)\x27')
     for path in (source / 'gravewright').rglob('*.js'):
-        if 'vendor' in path.parts or path.stat().st_size > 600000 or path.name.startswith('generated'):continue
-        for match in quoted.finditer(path.read_text()):
+        if ('vendor' in path.parts or 'node_modules' in path.parts or not path.is_file()
+                or path.stat().st_size > 600000 or path.name.startswith('generated')):continue
+        for match in quoted.finditer(path.read_text(encoding='utf-8')):
             raw = next(part for part in match.groups() if part is not None)
             if '\\' in raw or len(raw) > 800:continue
             if (re.fullmatch(r'[A-Za-z][A-Za-z0-9\s.,!?():%/→–—…+·\-]*', raw)
@@ -45,5 +47,5 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         sources = inventory(options['source'])
         options['output'].parent.mkdir(parents=True, exist_ok=True)
-        options['output'].write_text(json.dumps(sources, ensure_ascii=False, indent=2) + '\n')
+        options['output'].write_text(json.dumps(sources, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
         self.stdout.write(f'{len(sources)} unique source strings')

@@ -1,6 +1,6 @@
 """Offline/online acceptance through Chromium, with disposable host DB and media.
 Run with the Gravewright Python environment: tests/browser.py --host ../gravewright
-Offline reads dist/catalog.json and dist/translator-0.1.0.zip; online fetches GitHub.
+Offline installs the local release ZIP; online fetches the signed public release.
 """
 import argparse,json,os,subprocess,sys,tempfile,time
 from pathlib import Path
@@ -33,7 +33,8 @@ m=Membership.objects.create(campaign=c,user=u,role='gm');Onboarding.objects.crea
 if os.environ['TEST_OFFLINE']=='1':
  from gravewright.modules.packages import host
  root=Path(os.environ['TRANSLATOR_SOURCE'])
- host().install(json.loads((root/'dist/catalog.json').read_text())[0],(root/'dist/translator-0.1.0.zip').read_bytes())
+ manifest=json.loads((root/'gravewright_translator/package/manifest.json').read_text(encoding='utf-8'))
+ host().install_local((root/'dist'/f"translator-{manifest['version']}.zip").read_bytes())
 client=Client();client.force_login(u)
 print(json.dumps({'cookie':{'name':settings.SESSION_COOKIE_NAME,'value':client.session.session_key},'campaign':str(c.pk)}))
 '''
@@ -45,6 +46,7 @@ with tempfile.TemporaryDirectory(prefix='translator-'+mode+'-') as tmp:
       'PYTHONPATH':str(host) if args.online else str(ROOT)+os.pathsep+str(host),
       'DJANGO_DEBUG':'true','DJANGO_ALLOWED_HOSTS':'127.0.0.1,localhost,testserver',
       'GRAVEWRIGHT_DATABASE':str(directory/'db.sqlite3'),'GRAVEWRIGHT_MEDIA_ROOT':str(directory/'media'),
+      'GRAVEWRIGHT_MODULES_ROOT':str(directory/'modules'),'GRAVEWRIGHT_DJANGO_REGISTRY':str(directory/'modules/server-apps.json'),
       'GRAVEWRIGHT_PUBLIC_ORIGIN':'','DJANGO_SECURE_COOKIES':'false','GRAVEWRIGHT_REDIS_URL':'',
       'TRUSTED_PROXIES':'','GRAVEWRIGHT_RELEASES_REPOSITORY':'',
       'GRAVEWRIGHT_MARKETPLACE_URL':args.catalog,'GRAVEWRIGHT_MARKETPLACE_KEYS_FILE':str(args.keys.resolve()),
@@ -65,15 +67,18 @@ with tempfile.TemporaryDirectory(prefix='translator-'+mode+'-') as tmp:
     if args.online:
      assert page.request.get(base+'/api/module-packages').json()==[]
      page.goto(base+'/inside?section=marketplace')
-     card=page.locator('.module-catalog__card').filter(has=page.get_by_role('heading',name='Translator',exact=True))
+     page.locator('[data-action=browse]').click()
+     version=json.loads((ROOT/'gravewright_translator/package/manifest.json').read_text(encoding='utf-8'))['version']
+     card=page.locator(f'[data-module-catalog=marketplace] [data-package-id="gravewright.translator"][data-package-version="{version}"]')
      expect(card).to_be_visible(timeout=30000)
      card.locator('[data-action=install]').click()
      expect(card.locator('[data-status]')).to_have_text('Installed',timeout=60000)
+     page.locator('[data-action=close-browser]').click()
      report['checks'].append('installed through marketplace using public signed catalog and release URL')
     page.goto(base+'/inside?section=addons')
     expect(page.locator('.module-catalog__card h3')).to_have_text('Translator',timeout=15000)
     page.locator('[data-action=global-activation]').click()
-    page.wait_for_function("document.querySelector('[data-action=global-activation]')?.textContent.includes('Deactivate')")
+    expect(page.locator('[data-action=global-activation]')).to_have_attribute('aria-pressed','true')
     report['checks'].append('listed in installed modules; owner activates installation-wide')
     for locale,title,save in [('pt-BR','Configurações','Salvar idioma'),('es','Configuración','Guardar idioma'),('en','Settings','Save language')]:
      page.goto(base+'/inside?section=settings')
@@ -95,7 +100,9 @@ with tempfile.TemporaryDirectory(prefix='translator-'+mode+'-') as tmp:
      expect(page.locator('html')).to_have_attribute('lang',locale,timeout=15000)
      expect(page.locator('[name=locale]')).to_have_count(0)
      expect(page.locator('[data-table-modules] .module-marketplace__header')).to_have_count(1)
-     expect(page.locator('[data-table-modules] .module-marketplace__item')).to_have_count(0)
+     expect(page.locator('[data-table-modules] .module-marketplace__item')).to_have_count(1)
+     expect(page.locator('[data-table-modules] [data-action=update]')).to_have_count(1)
+     expect(page.locator('[data-table-modules] [data-action=remove]')).to_have_count(1)
      # User-owned text inside excluded DOM must retain the exact original.
      page.evaluate("document.body.insertAdjacentHTML('beforeend','<div class=chat-message><button>Settings</button></div>')")
      expect(page.locator('.chat-message button').last).to_have_text('Settings')
@@ -103,7 +110,7 @@ with tempfile.TemporaryDirectory(prefix='translator-'+mode+'-') as tmp:
      (ROOT/'test-results').mkdir(exist_ok=True)
      page.screenshot(path=str(ROOT/'test-results'/f'{mode}-{locale}-table.png'))
     page.goto(base+'/inside?section=addons');page.locator('[data-action=global-activation]').click()
-    page.wait_for_function("document.querySelector('[data-action=global-activation]')?.textContent.includes('Activate')")
+    expect(page.locator('[data-action=global-activation]')).to_have_attribute('aria-pressed','false')
     page.goto(base+'/inside?section=settings');expect(page.locator('[name=locale]')).to_have_count(0)
     expect(page.locator('html')).to_have_attribute('lang','en')
     assert not errors,errors
