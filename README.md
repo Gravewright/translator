@@ -1,46 +1,94 @@
-# Translator
+# Translator 0.1.2
 
-Translator is an extensible translation engine for Gravewright VTT. It centralizes interface translations in language catalogs and integrates language selection with each user's account settings. English, Brazilian Portuguese and Spanish are the initial catalogs, not a fixed limit on supported languages. The owner activates it in **Installed modules**. Each user then chooses **Settings → Interface language**. No language selector appears in table settings and the module cannot be activated per campaign.
+Translator supplies installation-wide language catalogs for Gravewright VTT.
+English is the source language; Brazilian Portuguese and Spanish each have 3,012
+catalog entries in this release. Users choose their personal interface language
+inside a table's **Settings → Preferences**. The choice is saved to their account;
+switching language reloads the page while preserving the table URL.
 
-**Compatibility:** v0.1.1 requires a current Gravewright host with declarative language packages, installation-wide activation and account locale preferences. This release adds reviewed translations for document permissions, sharing, map references, window controls and package update/removal. It also carries the reviewed Runner messages from the source repository.
+Install the signed Translator package through the Gravewright Marketplace and
+activate its languages in Installed modules. Reload open pages after activation
+or deactivation. No external translation service, API key or model download is
+required at runtime.
 
-## Install
+## Documentation / Documentação
 
-Configure the signed [Gravewright Marketplace](https://github.com/Gravewright/marketplace), install **Translator**, open **Installed modules**, and select **Activate languages**. Users choose English, Português (Brasil), or Español in their internal account settings. The selection survives reloads. Disabling Translator removes the selector and restores English on subsequent page loads. Already open pages should be reloaded.
+The release ZIP includes the complete Portuguese documentation and integration
+example assets:
 
-The Django app is the authoring/build application. The marketplace artifact contains JSON catalogs, a manifest and a no-op module entry; the host never imports Python downloaded from a marketplace ZIP. There are no translation APIs, API keys, or model downloads at runtime.
+- [Guia de instalação, compatibilidade e solução de problemas](gravewright_translator/package/docs/README.md)
+- [Referência da API para módulos e sistemas](gravewright_translator/package/docs/API.md)
+- [Desenvolvimento, build, testes e distribuição](gravewright_translator/package/docs/DEVELOPMENT.md)
+- [Notas da versão](gravewright_translator/package/docs/CHANGELOG.md)
+- [Exemplo JavaScript](gravewright_translator/package/docs/examples/main.js) e [catálogos JSON](gravewright_translator/package/docs/examples/messages.json)
+- [Validation evidence](VALIDATION.md)
+- [Generation tools and attribution](THIRD_PARTY_NOTICES.md)
 
-## Build offline
+## Compatibility
 
-Use the Gravewright Python environment and this repository on `PYTHONPATH`:
+The package declares SDK `>=1.0.0 <2.0.0`. Language catalogs require a host with
+declarative language packages, installation-wide activation and account locale
+preferences. Third-party integrations additionally require the updated host's
+`context.i18n` / `context.api.i18n` adapter. **Installing this ZIP on an older host
+does not add that JavaScript API.** Feature-detect it before using it.
 
-```sh
-cd ../gravewright
-PYTHONPATH=../translator DJANGO_SETTINGS_MODULE=gravewright_translator.dev_settings \
-  uv run --locked python manage.py build_translator --output ../translator/dist
+The marketplace ZIP contains JSON catalogs, a manifest, a no-op JavaScript entry,
+license and documentation. The Django app is for authoring/building; Python code
+is never loaded from this marketplace package.
+
+## Module integration
+
+Register private catalogs in the activation's `start(context)` and translate using
+the adapter supplied to the module or surface:
+
+```javascript
+export default {
+  start({ i18n }) {
+    i18n.register({
+      en: { greeting: 'Welcome, {name}' },
+      'pt-BR': { greeting: 'Boas-vindas, {name}' },
+      es: { greeting: 'Bienvenido, {name}' },
+    });
+  },
+  register({ register }) {
+    register('actor.directory', ({ root, api }) => {
+      root.setAttribute('translate', 'no');
+      root.textContent = api.i18n.t('greeting', { name: 'Arin' });
+    });
+  },
+};
 ```
 
-`build_translator` checks matching source sets and placeholders, then writes a deterministic ZIP, SHA-256 checksum and catalog coverage report. To extract an updated source inventory, run `extract_translator --source . --output ../translator/source-inventory.json` with the same environment. Update all supported language catalogs and review translations before releasing. Additional languages can be added with their own catalog and a corresponding entry in the package manifest.
+Catalogs are isolated by module ID. Lookup falls back from exact locale to base
+language, English and finally the key. The API supports named/numbered parameters,
+`has()`, `number()`, `onChange()` and automatic lifetime cleanup. English entries
+are mandatory; other languages may be partial with matching placeholders.
+Register again on every activation. `translate="no"` protects owned UI from the
+legacy DOM translator; render plain text using `textContent`.
 
-Production releases are built, signed and published through the Marketplace's **Sign and publish package** GitHub Actions workflow. Select `translator` and the exact source commit; signing uses the protected `release-signing` environment. ZIPs and signed catalog records are hosted in [Marketplace releases](https://github.com/Gravewright/marketplace/releases).
+## Build and release
 
-For an independently managed signing environment, `scripts/sign_release.py --key /outside/repository/key.pem --key-id YOUR_KEY_ID --archive dist/translator-0.1.1.zip --output dist/catalog.json` reads the version from the archive. Keep the private key outside repositories and configure its public key on the host.
+From the Gravewright checkout in PowerShell, with this repository at
+`data/translator-source`:
 
-## Validation
-
-```sh
-../gravewright/.venv/bin/python tests/browser.py --host ../gravewright --keys ../marketplace/trusted-keys.json
-../gravewright/.venv/bin/python tests/browser.py --host ../gravewright --keys ../marketplace/trusted-keys.json --online
+```powershell
+$env:PYTHONPATH = (Resolve-Path data/translator-source).Path
+$env:DJANGO_SETTINGS_MODULE = 'gravewright_translator.dev_settings'
+.venv/Scripts/python.exe -X utf8 manage.py build_translator --output data/translator-source/dist
 ```
 
-The offline test installs the built local ZIP into an isolated host using the Django authoring app. Its database and media are removed afterward. The online test starts with a fresh database, no offline package and no Translator Django app in `INSTALLED_APPS`; Chromium installs the actual public release through the marketplace and repeats the language checks. Reports/screenshots go to ignored `test-results/`.
+The deterministic build emits the ZIP, `SHA256SUMS.txt` and `coverage.json`.
+See the development guide for extraction, tests and signing. Official production
+releases use the Marketplace's **Sign and publish package** workflow with an exact
+source commit and the protected `release-signing` environment. A local build is
+neither signed nor published.
 
-## Coverage and limits
+## Coverage and license
 
-The catalogs cover extracted native message dictionaries, static template labels, and recognized browser UI literals. `source-inventory.json` maps source phrases to files; `dist/coverage.json` measures catalog completeness, **not proof that every possible screen or dynamic message is translated**. The browser report records unmatched controls on visited pages.
+Catalog coverage is inventory coverage, not a guarantee that every possible screen
+is translated. Campaign/player names, chat, PDFs and authored documents remain
+unchanged. Third-party modules translate their own UI through their private API
+catalogs. Some uncommon machine-assisted strings may still need linguistic review.
 
-Campaign names, player names, chat messages, editable journals, PDF content, imported rules, third-party module content and other user-authored data retain their original text. Generated sentences and UI added after this inventory may need additional catalog entries. Initial catalogs use offline machine assistance with manually reviewed common controls; longer or uncommon phrases may still need linguistic review. Report untranslated or incorrect UI strings with their source text and screen.
-
-See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for generation tools/model attribution. Models are not distributed or required at runtime.
-
-The signing command includes `type: module` and the creator-defined categories `Tradução`, `Idiomas`, and `Interface`. Override them with repeated `--tag` arguments. Tags belong to signed catalog metadata; they do not change the release ZIP. The current VTT host displays them as categories in its installation modal.
+MIT. See `gravewright_translator/LICENSE.txt` and `THIRD_PARTY_NOTICES.md`. Translation
+models are not distributed or required at runtime.

@@ -1,4 +1,29 @@
-# v0.1.0 validation
+# Validation
+
+## 0.1.2 — local release validation, 2026-10-11
+
+- The Django build test passed: two builds produced identical bytes and SHA-256.
+- Python project, application and manifest versions match at `0.1.2`.
+- Each authoring catalog contains 3,012 entries; key and placeholder validation passed.
+- The host translation audit returned no errors and no unmatched native translation calls.
+- Five host JavaScript tests passed for isolation, lifecycle, locale fallback,
+  placeholder validation, listeners and initial native locale configuration.
+- Documentation, example assets and all relative Markdown links inside the ZIP
+  were checked by the build test.
+- The documented JavaScript example ran against the real host translation adapter
+  in English, Portuguese and Spanish, including locale events and lifecycle cleanup.
+- The broader pre-release translation review exercised English, Portuguese and
+  Spanish with Playwright on isolated host data; this was a host/source review,
+  not a Marketplace installation of the final 0.1.2 ZIP.
+
+The local artifact is `dist/translator-0.1.2.zip`; its checksum is recorded in
+`dist/SHA256SUMS.txt`. This validation does not claim signing, publication or online
+acceptance of 0.1.2. The updated host API must be deployed with compatible modules.
+
+## 0.1.0 — historical validation
+
+The observations below describe the interface and release at that time. Current
+language preferences are inside the table; see the current documentation.
 
 Offline Chromium acceptance passed with the development Gravewright host and the final signed ZIP. The isolated package, database and media were removed when the test finished.
 

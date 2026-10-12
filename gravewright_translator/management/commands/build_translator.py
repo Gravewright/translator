@@ -9,7 +9,7 @@ from django.core.management.base import BaseCommand, CommandError
 from gravewright_translator import __version__
 
 ROOT = Path(__file__).resolve().parents[2]
-PLACEHOLDER = re.compile(r'\{[A-Za-z_][A-Za-z0-9_.]*\}')
+PLACEHOLDER = re.compile(r'\{(?:[A-Za-z_][A-Za-z0-9_.]*|\d+)\}')
 
 
 class Command(BaseCommand):
@@ -37,6 +37,9 @@ class Command(BaseCommand):
             report[locale] = {'entries': len(catalog), 'missing': 0,
                               'unchanged': sum(key == value for key, value in catalog.items())}
         files['LICENSE.txt'] = (ROOT / 'LICENSE.txt').read_bytes()
+        for path in sorted((ROOT / 'package' / 'docs').rglob('*')):
+            if path.is_file():
+                files[path.relative_to(ROOT / 'package').as_posix()] = path.read_bytes()
         output = Path(options['output'])
         output.mkdir(parents=True, exist_ok=True)
         target = output / f'translator-{__version__}.zip'

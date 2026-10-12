@@ -1,4 +1,4 @@
-import hashlib,json,tempfile,unittest,zipfile
+import hashlib,json,re,tempfile,tomllib,unittest,zipfile
 from pathlib import Path
 from django.conf import settings
 if not settings.configured:
@@ -24,6 +24,27 @@ class BuildTests(unittest.TestCase):
                 self.assertFalse(any(n.endswith('.py') for n in archive.namelist()))
                 manifest=json.loads(archive.read('manifest.json'))
                 self.assertEqual(manifest['version'],__version__)
+                project=tomllib.loads((Path(__file__).resolve().parents[1]/'pyproject.toml').read_text(encoding='utf-8'))
+                self.assertEqual(project['project']['version'],__version__)
+                names=set(archive.namelist())
+                for name in ('README.md','API.md','DEVELOPMENT.md','CHANGELOG.md'):
+                    self.assertIn(f'docs/{name}',names)
+                self.assertIn('docs/examples/main.js',names)
+                for name in sorted(names):
+                    if not name.endswith('.md'):
+                        continue
+                    content=archive.read(name).decode('utf-8')
+                    for link in re.findall(r'\]\(([^)]+)\)',content):
+                        if '://' in link or link.startswith('#'):
+                            continue
+                        target=(Path(name).parent/link.split('#')[0]).as_posix()
+                        self.assertIn(target,names,f'{name}: broken packaged documentation link {link}')
+                example=json.loads(archive.read('docs/examples/messages.json'))
+                self.assertEqual(set(example),{'en','pt-BR','es'})
+                for locale,messages in example.items():
+                    self.assertEqual(set(messages),set(example['en']))
+                    for key,value in messages.items():
+                        self.assertEqual(re.findall(r'\{[^}]+\}',value),re.findall(r'\{[^}]+\}',example['en'][key]))
                 self.assertEqual(set(manifest['locales']),{'pt-BR','es'})
                 pt=json.loads(archive.read('locales/pt-BR.json'))
                 es=json.loads(archive.read('locales/es.json'))

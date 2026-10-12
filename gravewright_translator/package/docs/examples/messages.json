@@ -1,0 +1,5 @@
+{
+  "en": { "sheet.title": "Character sheet", "sheet.greeting": "Welcome, {name}" },
+  "pt-BR": { "sheet.title": "Ficha de personagem", "sheet.greeting": "Boas-vindas, {name}" },
+  "es": { "sheet.title": "Ficha de personaje", "sheet.greeting": "Bienvenido, {name}" }
+}

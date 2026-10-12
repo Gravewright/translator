@@ -1,8 +1,8 @@
 {
   "id": "gravewright.translator",
   "name": "Translator",
-  "version": "0.1.1",
-  "description": "Extensible translation engine for Gravewright VTT. Centralizes interface translations in language catalogs and lets each user choose their language in account settings.",
+  "version": "0.1.2",
+  "description": "Translation catalogs for Gravewright VTT with reviewed Portuguese and Spanish interfaces. Includes documentation and examples for module-local translations through the host i18n API.",
   "author": "Gravewright",
   "license": "MIT",
   "sdk": {"requires": ">=1.0.0 <2.0.0", "tested": "1.0.0"},

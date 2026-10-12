@@ -1,4 +1,5 @@
 """Inventory core dictionaries, literal templates and browser interface strings."""
+import ast
 import json
 from pathlib import Path
 import re
@@ -19,21 +20,30 @@ def inventory(source):
         elif isinstance(value, list):
             for item in value:walk(item, origin)
     for path in (source / 'gravewright').rglob('*messages*.json'):
-        walk(json.loads(path.read_text(encoding='utf-8')), str(path.relative_to(source)))
+        walk(json.loads(path.read_text(encoding='utf-8')), path.relative_to(source).as_posix())
     for path in (source / 'gravewright').rglob('*.html'):
-        if 'node_modules' in path.parts or not path.is_file():continue
+        if 'node_modules' in path.parts or 'vendor' in path.parts or not path.is_file():continue
         parser = StaticText(); parser.feed(path.read_text(encoding='utf-8')); parser.close()
-        for text in parser.strings:add(text, str(path.relative_to(source)))
+        for text in parser.strings:add(text, path.relative_to(source).as_posix())
     quoted = re.compile(r'"((?:\\.|[^"\\])*)"|\x27((?:\\.|[^\x27\\])*)\x27')
+    calls = re.compile(r'''\b(?:gwText|modalText|text|label)\(\s*((?:"(?:\\.|[^"\\])*"|'(?:\\.|[^'\\])*'))''')
     for path in (source / 'gravewright').rglob('*.js'):
         if ('vendor' in path.parts or 'node_modules' in path.parts or not path.is_file()
-                or path.stat().st_size > 600000 or path.name.startswith('generated')):continue
-        for match in quoted.finditer(path.read_text(encoding='utf-8')):
+                or path.stat().st_size > 600000 or path.name.startswith('generated') or path.name.endswith('.test.js')):continue
+        content = path.read_text(encoding='utf-8')
+        for match in calls.finditer(content):
+            try:
+                value = ast.literal_eval(match[1])
+                value = re.sub(r'\\(?:x([0-9A-Fa-f]{2})|u([0-9A-Fa-f]{4}))', lambda m: chr(int(m[1] or m[2], 16)), value)
+            except (ValueError, SyntaxError):
+                continue
+            add(value, path.relative_to(source).as_posix())
+        for match in quoted.finditer(content):
             raw = next(part for part in match.groups() if part is not None)
             if '\\' in raw or len(raw) > 800:continue
             if (re.fullmatch(r'[A-Za-z][A-Za-z0-9\s.,!?():%/→–—…+·\-]*', raw)
                     and (raw[:1].isupper() or ' ' in raw) and len(raw.strip()) > 1):
-                add(raw, str(path.relative_to(source)))
+                add(raw, path.relative_to(source).as_posix())
     return {key: sorted(value) for key, value in sorted(strings.items())}
 
 
