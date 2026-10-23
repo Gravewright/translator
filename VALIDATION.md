@@ -1,5 +1,20 @@
 # Validation
 
+## 0.1.3 — local release validation, 2026-10-23
+
+- All three authoring tests passed, including two byte-identical deterministic
+  builds and extraction of direct and adapter translation calls.
+- Python project, application and manifest versions match at `0.1.3`.
+- Each catalog contains 3,584 entries with matching keys and placeholders.
+- All 3,012 original key/value pairs in each 0.1.2 catalog remain unchanged.
+- The host translation audit returned no errors and no unmatched native calls.
+- The build test checked portable ZIP contents, documentation links and examples.
+
+The candidate is built from the source prepared for 0.1.3. Local checks do not
+claim Marketplace signing, publication or acceptance of the final signed package.
+The visibility title and dynamic messages also require the corresponding host
+code fixes; this catalog release does not update the VTT application.
+
 ## 0.1.2 — local release validation, 2026-10-11
 
 - The Django build test passed: two builds produced identical bytes and SHA-256.

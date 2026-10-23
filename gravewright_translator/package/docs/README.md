@@ -1,15 +1,15 @@
-# Translator 0.1.2
+# Translator 0.1.3
 
 O Translator fornece catálogos de tradução para o Gravewright VTT. Inglês é o idioma
-de origem; a versão 0.1.2 publicada inclui português do Brasil (`pt-BR`) e espanhol (`es`), com
-3.012 entradas por idioma. Os idiomas disponíveis podem ser
+de origem; a versão 0.1.3 inclui português do Brasil (`pt-BR`) e espanhol (`es`), com
+3.584 entradas por idioma. Os idiomas disponíveis podem ser
 ampliados por pacotes de idioma compatíveis com o host.
 
-Os catálogos em desenvolvimento têm **3.584 entradas por idioma**, com 572
-adições e preservação dos pares anteriores e de todos os marcadores. Eles
-sincronizam textos revisados do host e incluem os rótulos e descrições dos modos
-do painel de visibilidade. São alterações de fonte ainda não publicadas; o pacote
-assinado da 0.1.2 permanece intacto. Veja [o histórico](CHANGELOG.md).
+Esta versão adiciona **572 entradas por idioma**, preservando os pares anteriores
+e todos os marcadores. Os catálogos sincronizam textos revisados do host e incluem
+os rótulos e descrições dos modos do painel de visibilidade. As 3.012 traduções
+anteriores da 0.1.2 são preservadas.
+Veja [o histórico](CHANGELOG.md).
 
 ## Documentação
 
@@ -41,8 +41,8 @@ pacotes declarativos de idioma, ativação global e preferência de idioma por c
 Para a nova integração de outros módulos, também precisa oferecer
 `context.i18n` / `context.api.i18n`.
 
-**A API é implementada pelo host atualizado em conjunto com esta versão.** Instalar
-somente o ZIP 0.1.2 em um VTT antigo não adiciona a API JavaScript. Autores devem
+**A API é implementada pelo host.** Instalar
+somente o ZIP 0.1.3 em um VTT antigo não adiciona a API JavaScript. Autores devem
 verificar a presença de `context.i18n` antes de usá-la; consulte [API.md](API.md).
 
 O pacote de Marketplace contém manifesto, entrada JavaScript sem efeitos de mesa,

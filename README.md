@@ -1,7 +1,7 @@
-# Translator 0.1.2
+# Translator 0.1.3
 
 Translator supplies installation-wide language catalogs for Gravewright VTT.
-English is the source language; the published 0.1.2 release has 3,012 catalog
+English is the source language; version 0.1.3 contains 3,584 catalog
 entries for Brazilian Portuguese and Spanish. Users choose their personal interface language
 inside a table's **Settings → Preferences**. The choice is saved to their account;
 switching language reloads the page while preserving the table URL.
@@ -11,15 +11,16 @@ activate its languages in Installed modules. Reload open pages after activation
 or deactivation. No external translation service, API key or model download is
 required at runtime.
 
-## Unreleased catalog updates
+## Changes in 0.1.3
 
-The working catalogs contain 3,584 entries per language: 572 additions covering
+The catalogs contain 3,584 entries per language: 572 additions covering
 native Translator calls, campaign preparation, Map Builder, clocks, clues, mind
 maps, PDF fields and journal references. Existing catalog pairs remain unchanged;
 new entries reuse reviewed host translations where available and preserve all
 named and numbered parameters. The visibility-panel labels include full vision
-and its mode descriptions. These source updates have not changed the published
-0.1.2 signed package. See the unreleased changelog before building a local package.
+and its mode descriptions. The original 3,012 translations from 0.1.2 are preserved.
+The extractor now includes literal `t(...)` and `.t(...)` calls. See the
+[changelog](gravewright_translator/package/docs/CHANGELOG.md) for compatibility details.
 
 ## Documentation / Documentação
 

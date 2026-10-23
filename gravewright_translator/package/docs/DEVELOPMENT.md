@@ -74,11 +74,12 @@ Mantenha `.env`, chaves e dados privados fora dos arquivos de pacote/documentaç
 Na raiz do repositório Translator, usando o Python do VTT:
 
 ```powershell
-../../.venv/Scripts/python.exe -X utf8 -m unittest discover -s tests -p test_build.py
+../../.venv/Scripts/python.exe -X utf8 -m unittest discover -s tests -p 'test_*.py'
 ```
 
-O teste reconstrói o ZIP duas vezes, compara bytes e checksum, confere manifesto,
-catálogos e documentação. No checkout do VTT, execute também:
+Os testes reconstroem o ZIP duas vezes, comparam bytes e checksum, conferem manifesto,
+catálogos e documentação e verificam a extração de chamadas nativas. No checkout do
+VTT, execute também:
 
 ```powershell
 .venv/Scripts/python.exe -X utf8 scripts/audit_translations.py --catalogs data/translator-source/gravewright_translator/catalogs
@@ -112,7 +113,7 @@ oficial ocorre no workflow **Sign and publish package** do repositório
 Para uma distribuição independente com sua própria chave confiável:
 
 ```powershell
-../../.venv/Scripts/python.exe -X utf8 scripts/sign_release.py --key CAMINHO_EXTERNO/key.pem --key-id SUA_CHAVE --archive dist/translator-0.1.2.zip --output dist/catalog.json
+../../.venv/Scripts/python.exe -X utf8 scripts/sign_release.py --key CAMINHO_EXTERNO/key.pem --key-id SUA_CHAVE --archive dist/translator-0.1.3.zip --output dist/catalog.json
 ```
 
 Configure a chave pública no host e um endereço HTTPS real usando `--download`
