@@ -1,9 +1,15 @@
 # Translator 0.1.2
 
 O Translator fornece catálogos de tradução para o Gravewright VTT. Inglês é o idioma
-de origem; esta versão inclui português do Brasil (`pt-BR`) e espanhol (`es`), com
-3.012 entradas em cada catálogo de autoria. Os idiomas disponíveis podem ser
+de origem; a versão 0.1.2 publicada inclui português do Brasil (`pt-BR`) e espanhol (`es`), com
+3.012 entradas por idioma. Os idiomas disponíveis podem ser
 ampliados por pacotes de idioma compatíveis com o host.
+
+Os catálogos em desenvolvimento têm **3.584 entradas por idioma**, com 572
+adições e preservação dos pares anteriores e de todos os marcadores. Eles
+sincronizam textos revisados do host e incluem os rótulos e descrições dos modos
+do painel de visibilidade. São alterações de fonte ainda não publicadas; o pacote
+assinado da 0.1.2 permanece intacto. Veja [o histórico](CHANGELOG.md).
 
 ## Documentação
 

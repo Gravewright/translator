@@ -42,6 +42,8 @@ A extração produz um inventário de candidatos; não sobrescreve as traduçõe
 Revise quais strings são interface e atualize os três catálogos com as mesmas
 chaves. Preserve espaços significativos e marcadores como `{name}` e `{0}`.
 Não traduza nomes de usuários, conteúdo de documentos ou identificadores técnicos.
+Chamadas literais `t(...)` e `.t(...)` também entram no inventário, inclusive
+textos com parâmetros; o resultado continua sendo uma lista de candidatos para revisão.
 
 Para adicionar um idioma nativo nesta implementação, inclua seu JSON em `catalogs/`,
 adicione nome e caminho em `manifest.locales` e atualize a lista de idiomas em

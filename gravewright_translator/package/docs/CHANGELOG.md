@@ -1,5 +1,19 @@
 # Histórico
 
+## Não lançado
+
+- 572 entradas adicionadas aos catálogos de inglês, português e espanhol, agora
+  com 3.584 chaves iguais por idioma, preservando os 3.012 pares anteriores.
+- Sincronização de textos nativos revisados do host para preparação de campanha,
+  Map Builder, relógios, pistas, mapas mentais, PDF e referências de diários.
+- Rótulos e descrições do painel de visibilidade, incluindo visão completa.
+- Preservação de marcadores nomeados e numéricos e dos limites nas mensagens.
+- Extração de chamadas `t(...)` e `.t(...)`, inclusive rótulos com parâmetros.
+
+Essas alterações ainda não foram publicadas nem substituem o arquivo assinado
+da 0.1.2. A tradução do título com ícone e das mensagens dinâmicas do painel exige
+também a correção correspondente no host; alterar só o catálogo não muda esse código.
+
 ## 0.1.2
 
 - Revisão de 258 textos de interface em português e espanhol.

@@ -26,7 +26,7 @@ def inventory(source):
         parser = StaticText(); parser.feed(path.read_text(encoding='utf-8')); parser.close()
         for text in parser.strings:add(text, path.relative_to(source).as_posix())
     quoted = re.compile(r'"((?:\\.|[^"\\])*)"|\x27((?:\\.|[^\x27\\])*)\x27')
-    calls = re.compile(r'''\b(?:gwText|modalText|text|label)\(\s*((?:"(?:\\.|[^"\\])*"|'(?:\\.|[^'\\])*'))''')
+    calls = re.compile(r'''\b(?:gwText|modalText|text|label|t)\s*\(\s*((?:"(?:\\.|[^"\\])*"|'(?:\\.|[^'\\])*'))''')
     for path in (source / 'gravewright').rglob('*.js'):
         if ('vendor' in path.parts or 'node_modules' in path.parts or not path.is_file()
                 or path.stat().st_size > 600000 or path.name.startswith('generated') or path.name.endswith('.test.js')):continue
