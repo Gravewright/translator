@@ -270,6 +270,9 @@
   "Activation": [
     "gravewright/table/tool_messages.json"
   ],
+  "Activation areas": [
+    "scripts/reviewed.json"
+  ],
   "Activation radius (cells)": [
     "gravewright/maps/static/gravewright_maps/builder/inspector-controller.js"
   ],
@@ -586,6 +589,9 @@
   ],
   "Ajustar recurso": [
     "gravewright/table/static/gravewright_table/combat-panel.js"
+  ],
+  "Align and distribute": [
+    "scripts/reviewed.json"
   ],
   "Align bottom": [
     "gravewright/pdf_system/static/gravewright_pdf_system/manual-editor.js"
@@ -1618,6 +1624,9 @@
     "gravewright/maps/jinja2/gravewright_maps/builder.html",
     "gravewright/maps/static/gravewright_maps/builder/workspace.js"
   ],
+  "Builder tools": [
+    "scripts/reviewed.json"
+  ],
   "Built into Gravewright. Available when creating a table.": [
     "gravewright/web/static/gravewright_web/inside/management.js"
   ],
@@ -2309,6 +2318,12 @@
   "Choose an unlinked torch component from the same layer.": [
     "gravewright/maps/static/gravewright_maps/builder/inspector-controller.js"
   ],
+  "Choose an uploaded object before painting.": [
+    "scripts/reviewed.json"
+  ],
+  "Choose an uploaded object or family in the library, then drag on the map. Each stroke is one undo step.": [
+    "scripts/reviewed.json"
+  ],
   "Choose at least one player.": [
     "gravewright/journals/static/gravewright_journals/presentation.js"
   ],
@@ -2475,8 +2490,14 @@
   "Click and drag on the map to position the sound and define its radius. Press Esc to cancel.": [
     "gravewright/table/tool_messages.json"
   ],
+  "Click on the map to place the saved objects. Escape cancels.": [
+    "scripts/reviewed.json"
+  ],
   "Click or drag to place a decorative object.": [
     "gravewright/maps/static/gravewright_maps/builder/workspace.js"
+  ],
+  "Click or use arrow keys to walk. Interact with nearby objects. Timers do not advance and no effects are sent to players.": [
+    "scripts/reviewed.json"
   ],
   "Click points, then double-click or press Enter to finish. Esc cancels.": [
     "gravewright/maps/static/gravewright_maps/builder/workspace.js"
@@ -5018,6 +5039,9 @@
   "Enter a name between 2 and 80 characters.": [
     "gravewright/accounts/messages.json"
   ],
+  "Enter a preset name.": [
+    "scripts/reviewed.json"
+  ],
   "Enter a template name.": [
     "gravewright/maps/static/gravewright_maps/builder/blueprint-templates.js"
   ],
@@ -5993,6 +6017,9 @@
   "Group name must have at least 2 characters.": [
     "gravewright/table/tool_messages.json"
   ],
+  "Group selection in a layer": [
+    "scripts/reviewed.json"
+  ],
   "Groups": [
     "gravewright/table/tool_messages.json"
   ],
@@ -6677,6 +6704,9 @@
   "Invalid map editing mode.": [
     "gravewright/maps/static/gravewright_maps/builder/floor-painter.js"
   ],
+  "Invalid object preset.": [
+    "scripts/reviewed.json"
+  ],
   "Invalid or expired removal code.": [
     "gravewright/table/tool_messages.json"
   ],
@@ -6701,6 +6731,9 @@
   ],
   "Invalid sheet types": [
     "gravewright/modules/static/gravewright_modules/module-runtime.js"
+  ],
+  "Invalid test position.": [
+    "scripts/reviewed.json"
   ],
   "Invalid token appearance.": [
     "scripts/reviewed.json"
@@ -7783,6 +7816,9 @@
   "Move chapter up": [
     "gravewright/journals/static/gravewright_journals/workspace.js"
   ],
+  "Move closer to an interactive object.": [
+    "scripts/reviewed.json"
+  ],
   "Move connected wall node": [
     "gravewright/maps/static/gravewright_maps/builder/wall-controls.js"
   ],
@@ -7946,6 +7982,9 @@
   ],
   "Mute only on this device": [
     "gravewright/table/static/gravewright_table/media-workspace.js"
+  ],
+  "My objects": [
+    "scripts/reviewed.json"
   ],
   "My roll": [
     "gravewright/dice/jinja2/gravewright_dice/presets.html",
@@ -8539,6 +8578,9 @@
   "No rulesets available.": [
     "gravewright/table/tool_messages.json"
   ],
+  "No saved objects yet.": [
+    "scripts/reviewed.json"
+  ],
   "No saved projects yet.": [
     "gravewright/maps/jinja2/gravewright_maps/builder.html"
   ],
@@ -8729,12 +8771,21 @@
     "gravewright/maps/static/gravewright_maps/builder/scene-network.js",
     "gravewright/maps/static/gravewright_maps/builder/workspace.js"
   ],
+  "Object brush": [
+    "scripts/reviewed.json"
+  ],
+  "Object library limit exceeded.": [
+    "scripts/reviewed.json"
+  ],
   "Object name": [
     "gravewright/maps/static/gravewright_maps/builder/inspector-controller.js"
   ],
   "Object options": [
     "gravewright/maps/static/gravewright_maps/builder/inspector-controller.js",
     "gravewright/maps/static/gravewright_maps/builder/object-menu.js"
+  ],
+  "Object preset not found.": [
+    "scripts/reviewed.json"
   ],
   "Objective": [
     "gravewright/journals/jinja2/gravewright_journals/types.html"
@@ -9097,6 +9148,9 @@
   "Organize published quests and pin those that deserve attention.": [
     "gravewright/journals/jinja2/gravewright_journals/types.html"
   ],
+  "Organize selection": [
+    "scripts/reviewed.json"
+  ],
   "Organize the maps and scenes in this journey.": [
     "gravewright/table/messages.json"
   ],
@@ -9276,6 +9330,9 @@
   ],
   "Paint maps": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Paint multiple objects": [
+    "scripts/reviewed.json"
   ],
   "Paint on": [
     "gravewright/maps/jinja2/gravewright_maps/builder.html"
@@ -9976,6 +10033,9 @@
   ],
   "Player settings": [
     "gravewright/web/inside_messages.json"
+  ],
+  "Player test map": [
+    "scripts/reviewed.json"
   ],
   "Player view": [
     "gravewright/table/tool_messages.json"
@@ -11316,6 +11376,9 @@
   "Rotate object": [
     "gravewright/maps/static/gravewright_maps/builder/run-format.js"
   ],
+  "Rotate selection": [
+    "scripts/reviewed.json"
+  ],
   "Rotate this code? The previous code will stop working immediately.": [
     "gravewright/table/tool_messages.json"
   ],
@@ -11331,9 +11394,15 @@
     "gravewright/table/tool_messages.json",
     "gravewright/tokens/jinja2/gravewright_tokens/workspace.html"
   ],
+  "Rotation (degrees)": [
+    "scripts/reviewed.json"
+  ],
   "Rotation anchor point": [
     "gravewright/maps/jinja2/gravewright_maps/wall_editor.html",
     "gravewright/maps/static/gravewright_maps/builder/inspector-controller.js"
+  ],
+  "Rotation variation (degrees)": [
+    "scripts/reviewed.json"
   ],
   "Round": [
     "gravewright/table/static/gravewright_table/combat-panel.js",
@@ -11517,6 +11586,9 @@
   "Save scene": [
     "gravewright/table/messages.json",
     "gravewright/table/tool_messages.json"
+  ],
+  "Save selection to My objects": [
+    "scripts/reviewed.json"
   ],
   "Save settings": [
     "gravewright/table/tool_messages.json"
@@ -11940,6 +12012,9 @@
   "Select no more than 64 actors or tokens.": [
     "gravewright/maps/static/gravewright_maps/builder/region-filter-ui.js"
   ],
+  "Select objects and enter a group name.": [
+    "scripts/reviewed.json"
+  ],
   "Select on map": [
     "gravewright/maps/static/gravewright_maps/builder/inspector-controller.js"
   ],
@@ -11948,6 +12023,9 @@
   ],
   "Select players who will have access to this note. The GM always has access.": [
     "gravewright/table/tool_messages.json"
+  ],
+  "Select up to 100 objects.": [
+    "scripts/reviewed.json"
   ],
   "Select {name}": [
     "gravewright/maps/static/gravewright_maps/builder/layer-controller.js"
@@ -12230,6 +12308,9 @@
   "Show all": [
     "gravewright/maps/jinja2/gravewright_maps/builder.html"
   ],
+  "Show all object activation areas": [
+    "scripts/reviewed.json"
+  ],
   "Show back": [
     "gravewright/table/static/gravewright_table/media-workspace.js"
   ],
@@ -12361,6 +12442,9 @@
     "gravewright/maps/frontend/features/effects/model/legacy-labels.js",
     "gravewright/maps/static/gravewright_maps/runtime/features/effects/model/legacy-labels.js",
     "gravewright/table/tool_messages.json"
+  ],
+  "Size variation (%)": [
+    "scripts/reviewed.json"
   ],
   "Skip to campaign content": [
     "gravewright/web/jinja2/gravewright_web/campaign_manager/page.html"
@@ -12522,6 +12606,9 @@
   ],
   "Space + drag to pan · Scroll to zoom · 0 to fit": [
     "gravewright/maps/jinja2/gravewright_maps/builder.html"
+  ],
+  "Spacing (cells)": [
+    "scripts/reviewed.json"
   ],
   "Spanish": [
     "gravewright/table/tool_messages.json"
@@ -12961,6 +13048,9 @@
   "Test actor": [
     "gravewright/maps/static/gravewright_maps/builder/playtest.js"
   ],
+  "Test as player": [
+    "scripts/reviewed.json"
+  ],
   "Test behavior": [
     "gravewright/maps/jinja2/gravewright_maps/builder.html",
     "gravewright/maps/static/gravewright_maps/builder/playtest.js"
@@ -13311,6 +13401,9 @@
   "The same object properties changed in the game and in this draft. Your edits are kept in this tab.": [
     "gravewright/maps/static/gravewright_maps/builder/workspace.js"
   ],
+  "The saved objects do not fit here. Choose a visible, unlocked layer and check object limits.": [
+    "scripts/reviewed.json"
+  ],
   "The scene changed. Reopen its settings and try again.": [
     "gravewright/web/static/gravewright_web/campaign-manager/scenes.js"
   ],
@@ -13325,6 +13418,9 @@
   ],
   "The selected rate of fire exceeds the weapon limit.": [
     "gravewright/table/tool_messages.json"
+  ],
+  "The selection cannot be changed. Check bounds, locks and door overlaps.": [
+    "scripts/reviewed.json"
   ],
   "The selection cannot fit here or would overlap another door.": [
     "gravewright/maps/static/gravewright_maps/builder/workspace.js"
@@ -14469,6 +14565,9 @@
   "Use @value for this field. Leave the formula empty to disable rolling.": [
     "gravewright/pdf_system/static/gravewright_pdf_system/field-actions-editor.js"
   ],
+  "Use Project layers to hide, lock or move the group.": [
+    "scripts/reviewed.json"
+  ],
   "Use a PDF field formula with 1 to 512 characters.": [
     "gravewright/pdf_system/frontend/formulas.js",
     "gravewright/pdf_system/static/gravewright_pdf_system/controller.js"
@@ -14740,6 +14839,9 @@
   "Vision enabled": [
     "gravewright/tokens/jinja2/gravewright_tokens/workspace.html"
   ],
+  "Vision radius (cells)": [
+    "scripts/reviewed.json"
+  ],
   "Vision…": [
     "gravewright/table/tool_messages.json"
   ],
@@ -14796,6 +14898,9 @@
   ],
   "Waiting to save…": [
     "gravewright/maps/static/gravewright_maps/builder/workspace.js"
+  ],
+  "Walk through the draft to test vision, collisions and activation areas. The live scene is not changed.": [
+    "scripts/reviewed.json"
   ],
   "Wall": [
     "gravewright/maps/frontend/features/selection/model/objects.js",

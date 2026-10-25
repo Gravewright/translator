@@ -147,6 +147,10 @@
     "Ativação",
     "Activación"
   ],
+  "Activation areas": [
+    "Áreas de ativação",
+    "Áreas de activación"
+  ],
   "Active": [
     "Ativo",
     "Activo"
@@ -406,6 +410,26 @@
   "After this panel is refreshed, only a masked code will be available.": [
     "Após atualizar este painel, apenas uma versão parcialmente oculta do código estará disponível.",
     "Después de actualizar este panel, solo estará disponible un código enmascarado."
+  ],
+  "Align and distribute": [
+    "Alinhar e distribuir",
+    "Alinear y distribuir"
+  ],
+  "Align bottom": [
+    "Alinhar abaixo",
+    "Alinear abajo"
+  ],
+  "Align left": [
+    "Alinhar à esquerda",
+    "Alinear a la izquierda"
+  ],
+  "Align right": [
+    "Alinhar à direita",
+    "Alinear a la derecha"
+  ],
+  "Align top": [
+    "Alinhar acima",
+    "Alinear arriba"
   ],
   "All": [
     "Todos",
@@ -759,6 +783,10 @@
     "Combustão alquímica borbulhante com chamas verdes.",
     "Burbujeando combustión alquímica con llamas verdes."
   ],
+  "Builder tools": [
+    "Ferramentas do Builder",
+    "Herramientas de Builder"
+  ],
   "Bullet list": [
     "Lista com marcadores",
     "Lista de destinatarios"
@@ -855,9 +883,17 @@
     "Célula",
     "Celda"
   ],
+  "Center horizontally": [
+    "Centralizar horizontalmente",
+    "Centrar horizontalmente"
+  ],
   "Center token": [
     "Centralizar token",
     "Centro token"
+  ],
+  "Center vertically": [
+    "Centralizar verticalmente",
+    "Centrar verticalmente"
   ],
   "Change color": [
     "Alterar cor",
@@ -971,6 +1007,14 @@
     "Escolha um título com 2 a 120 caracteres.",
     "Elija un título entre 2 y 120 caracteres."
   ],
+  "Choose an uploaded object before painting.": [
+    "Escolha um objeto enviado antes de pintar.",
+    "Elige un objeto importado antes de pintar."
+  ],
+  "Choose an uploaded object or family in the library, then drag on the map. Each stroke is one undo step.": [
+    "Escolha um objeto enviado ou uma família na biblioteca e arraste no mapa. Cada traço corresponde a uma etapa de desfazer.",
+    "Elige un objeto importado o una familia de la biblioteca y arrastra en el mapa. Cada trazo corresponde a un paso de deshacer."
+  ],
   "Choose file": [
     "Selecionar arquivo",
     "Elegir archivo"
@@ -1082,6 +1126,14 @@
   "Click endpoints or drag · Alt ends the chain · Shift snaps to grid · Ctrl ignores snapping · Esc cancels": [
     "Clique nas extremidades ou arraste · Alt encerra a sequência · Shift alinha à grade · Ctrl ignora o alinhamento · Esc cancela",
     "Haga clic en endpoints o arrastre · Alt termina la cadena · Mayúsculas a la cuadrícula · Ctrl ignora el chasquido · Esc cancela"
+  ],
+  "Click on the map to place the saved objects. Escape cancels.": [
+    "Clique no mapa para posicionar os objetos salvos. Esc cancela.",
+    "Haz clic en el mapa para colocar los objetos guardados. Esc cancela."
+  ],
+  "Click or use arrow keys to walk. Interact with nearby objects. Timers do not advance and no effects are sent to players.": [
+    "Clique ou use as setas para andar. Interaja com objetos próximos. Os temporizadores não avançam e nenhum efeito é enviado aos jogadores.",
+    "Haz clic o usa las flechas para caminar. Interactúa con objetos cercanos. Los temporizadores no avanzan y no se envían efectos a los jugadores."
   ],
   "Click to add points. Click the first point to close.": [
     "Clique para adicionar pontos. Clique no primeiro ponto para fechar.",
@@ -2059,6 +2111,14 @@
     "Atenuação por distância",
     "Fallo a distancia"
   ],
+  "Distribute horizontally": [
+    "Distribuir horizontalmente",
+    "Distribuir horizontalmente"
+  ],
+  "Distribute vertically": [
+    "Distribuir verticalmente",
+    "Distribuir verticalmente"
+  ],
   "Divider": [
     "Divisor",
     "Divisor"
@@ -2306,6 +2366,10 @@
   "Enter a name between 2 and 80 characters.": [
     "Digite um nome com 2 a 80 caracteres.",
     "Introduzca un nombre entre 2 y 80 caracteres."
+  ],
+  "Enter a preset name.": [
+    "Informe o nome do modelo.",
+    "Introduce un nombre para el modelo."
   ],
   "Enter a valid campaign title.": [
     "Digite um título válido para a campanha.",
@@ -2783,6 +2847,14 @@
     "Grupo",
     "Grupo"
   ],
+  "Group name": [
+    "Nome do grupo",
+    "Nombre del grupo"
+  ],
+  "Group selection in a layer": [
+    "Agrupar seleção em uma camada",
+    "Agrupar selección en una capa"
+  ],
   "Groups": [
     "Grupos",
     "Grupos"
@@ -3047,6 +3119,10 @@
     "Tipo de imagem inválido.",
     "Tipo de imagen no válida."
   ],
+  "Invalid object preset.": [
+    "Modelo de objeto inválido.",
+    "Modelo de objeto no válido."
+  ],
   "Invalid package URL": [
     "URL de pacote inválida",
     "URL del paquete no válido"
@@ -3054,6 +3130,10 @@
   "Invalid sheet data.": [
     "Dados da ficha inválidos.",
     "Datos de la hoja no válidos."
+  ],
+  "Invalid test position.": [
+    "Posição de teste inválida.",
+    "Posición de prueba no válida."
   ],
   "Invalid token appearance.": [
     "Aparência do token inválida.",
@@ -3531,6 +3611,10 @@
     "Mover",
     "Mover"
   ],
+  "Move closer to an interactive object.": [
+    "Aproxime-se de um objeto interativo.",
+    "Acércate a un objeto interactivo."
+  ],
   "Move down": [
     "Mover para baixo",
     "Bajar"
@@ -3598,6 +3682,10 @@
   "Mute audio": [
     "Silenciar áudio",
     "Silenciar el audio"
+  ],
+  "My objects": [
+    "Meus objetos",
+    "Mis objetos"
   ],
   "My presets ·": [
     "Minhas predefinições ·",
@@ -3779,6 +3867,10 @@
     "Nenhum sistema de regras disponível.",
     "No hay reglas disponibles."
   ],
+  "No saved objects yet.": [
+    "Nenhum objeto salvo ainda.",
+    "Todavía no hay objetos guardados."
+  ],
   "No scene cards.": [
     "Nenhuma carta na cena.",
     "Sin tarjetas de escena."
@@ -3830,6 +3922,18 @@
   "O": [
     "O",
     "O"
+  ],
+  "Object brush": [
+    "Pincel de objetos",
+    "Pincel de objetos"
+  ],
+  "Object library limit exceeded.": [
+    "O limite da biblioteca de objetos foi excedido.",
+    "Se superó el límite de la biblioteca de objetos."
+  ],
+  "Object preset not found.": [
+    "Modelo de objeto não encontrado.",
+    "Modelo de objeto no encontrado."
   ],
   "Objective description": [
     "Descrição do objetivo",
@@ -4003,6 +4107,10 @@
     "Organize as missões publicadas e fixe as que merecem destaque.",
     "Organizar misiones publicadas y fijar aquellos que merecen atención."
   ],
+  "Organize selection": [
+    "Organizar seleção",
+    "Organizar selección"
+  ],
   "Organize the maps and scenes in this journey.": [
     "Organize os mapas e as cenas desta jornada.",
     "Organiza los mapas y escenas de este viaje."
@@ -4074,6 +4182,10 @@
   "Paint maps": [
     "Pintar mapas",
     "Pintar mapas"
+  ],
+  "Paint multiple objects": [
+    "Pintar vários objetos",
+    "Pintar varios objetos"
   ],
   "Participants": [
     "Participantes",
@@ -4191,6 +4303,10 @@
     "Fixado",
     "Pinned"
   ],
+  "Place": [
+    "Posicionar",
+    "Colocar"
+  ],
   "Place Spatial Sound": [
     "Posicionar som espacial",
     "Sonido espacial"
@@ -4234,6 +4350,10 @@
   "Player removed from the table.": [
     "Jogador removido da mesa.",
     "Jugador retirado de la mesa."
+  ],
+  "Player test map": [
+    "Mapa de teste do jogador",
+    "Mapa de prueba del jugador"
   ],
   "Player view": [
     "Visão do jogador",
@@ -4316,8 +4436,8 @@
     "Biblioteca preestablecida (50)"
   ],
   "Preset name": [
-    "Nome da predefinição",
-    "Nombre predeterminado"
+    "Nome do modelo",
+    "Nombre del modelo"
   ],
   "Preview": [
     "Prévia",
@@ -4867,9 +4987,21 @@
     "Renovar código",
     "Rotar el código"
   ],
+  "Rotate selection": [
+    "Girar seleção",
+    "Girar selección"
+  ],
   "Rotate this code? The previous code will stop working immediately.": [
     "Renovar este código? O anterior deixará de funcionar imediatamente.",
     "¿Rotar este código? El código anterior dejará de funcionar inmediatamente."
+  ],
+  "Rotation (degrees)": [
+    "Rotação (graus)",
+    "Rotación (grados)"
+  ],
+  "Rotation variation (degrees)": [
+    "Variação de rotação (graus)",
+    "Variación de rotación (grados)"
   ],
   "Ruler (R)": [
     "Régua (R)",
@@ -4966,6 +5098,10 @@
   "Save scene": [
     "Salvar cena",
     "Guardar escena"
+  ],
+  "Save selection to My objects": [
+    "Salvar seleção em Meus objetos",
+    "Guardar selección en Mis objetos"
   ],
   "Save settings": [
     "Salvar configurações",
@@ -5151,9 +5287,17 @@
     "Selecionar imagem",
     "Seleccionar imagen"
   ],
+  "Select objects and enter a group name.": [
+    "Selecione objetos e informe o nome do grupo.",
+    "Selecciona objetos e introduce el nombre del grupo."
+  ],
   "Select players who will have access to this note. The GM always has access.": [
     "Selecione jogadores que terão acesso a essa nota. O mestre sempre tem acesso.",
     "Seleccione los jugadores que tendrán acceso a esta nota. El GM siempre tiene acceso."
+  ],
+  "Select up to 100 objects.": [
+    "Selecione até 100 objetos.",
+    "Selecciona hasta 100 objetos."
   ],
   "Selected or hovered": [
     "Ao selecionar ou passar o mouse",
@@ -5315,6 +5459,10 @@
     "Mostrar",
     "Mostrar"
   ],
+  "Show all object activation areas": [
+    "Mostrar todas as áreas de ativação dos objetos",
+    "Mostrar todas las áreas de activación de objetos"
+  ],
   "Show front": [
     "Mostrar frente",
     "Mostrar delante"
@@ -5362,6 +5510,10 @@
   "Size": [
     "Tamanho",
     "Tamaño"
+  ],
+  "Size variation (%)": [
+    "Variação de tamanho (%)",
+    "Variación de tamaño (%)"
   ],
   "Slicing tiles…": [
     "Gerando blocos de imagem…",
@@ -5434,6 +5586,10 @@
   "Source installations are updated from the official repository. Back up the database and uploaded files, update the checkout, run uv sync and python manage.py migrate, then restart the server.": [
     "Instalações a partir do código-fonte são atualizadas pelo repositório oficial. Faça backup do banco de dados e dos arquivos enviados, atualize o código, execute uv sync e python manage.py migrate e reinicie o servidor.",
     "Las instalaciones de origen se actualizan desde el repositorio oficial. Copia de seguridad de la base de datos y los archivos cargados, actualizar la caja, ejecutar la sincronización uv y administrar python.py migrar, luego reiniciar el servidor."
+  ],
+  "Spacing (cells)": [
+    "Espaçamento (células)",
+    "Espaciado (celdas)"
   ],
   "Spanish": [
     "Espanhol",
@@ -5671,6 +5827,10 @@
     "Ative ou desative este emissor temporariamente.",
     "Activar o desactivar temporalmente este emisor."
   ],
+  "Test as player": [
+    "Testar como jogador",
+    "Probar como jugador"
+  ],
   "Testing receives candidate releases. Keeping it updated is recommended, but regressions may occur.": [
     "O canal de testes recebe versões candidatas. É recomendável mantê-lo atualizado, mas podem ocorrer regressões.",
     "La prueba recibe liberaciones candidatas. Mantenerla actualizada se recomienda, pero pueden ocurrir regresiones."
@@ -5799,9 +5959,17 @@
     "O manifesto do sistema de regras é inválido.",
     "El manifiesto del conjunto de reglas no es válido."
   ],
+  "The saved objects do not fit here. Choose a visible, unlocked layer and check object limits.": [
+    "Os objetos salvos não cabem aqui. Escolha uma camada visível e desbloqueada e verifique os limites de objetos.",
+    "Los objetos guardados no caben aquí. Elige una capa visible y desbloqueada y revisa los límites de objetos."
+  ],
   "The secure form expired. Try again.": [
     "O formulário expirou. Tente novamente.",
     "El formulario seguro expiró."
+  ],
+  "The selection cannot be changed. Check bounds, locks and door overlaps.": [
+    "Não foi possível alterar a seleção. Verifique os limites, bloqueios e sobreposições de portas.",
+    "No se pudo modificar la selección. Revisa los límites, bloqueos y superposiciones de puertas."
   ],
   "The server could not read that formula.": [
     "Não foi possível interpretar a fórmula.",
@@ -6231,6 +6399,10 @@
     "Use um número de 1 a 65535.",
     "Use 1-65535."
   ],
+  "Use Project layers to hide, lock or move the group.": [
+    "Use as camadas do projeto para ocultar, bloquear ou mover o grupo.",
+    "Usa las capas del proyecto para ocultar, bloquear o mover el grupo."
+  ],
   "Use a valid URL or a PNG, JPEG, or WebP image up to 5 MB.": [
     "Use uma URL válida ou uma imagem PNG, JPEG ou WebP de até 5 MB.",
     "Utilice una URL válida o una imagen PNG, JPEG o WebP de hasta 5 MB."
@@ -6327,6 +6499,10 @@
     "Visão ativada",
     "Vision activada"
   ],
+  "Vision radius (cells)": [
+    "Raio de visão (células)",
+    "Radio de visión (celdas)"
+  ],
   "Visual quality": [
     "Qualidade visual",
     "Calidad visual"
@@ -6350,6 +6526,10 @@
   "Waiting for the GM.": [
     "Aguardando o mestre.",
     "Esperando al GM."
+  ],
+  "Walk through the draft to test vision, collisions and activation areas. The live scene is not changed.": [
+    "Percorra o rascunho para testar visão, colisões e áreas de ativação. A cena em jogo não será alterada.",
+    "Recorre el borrador para probar visión, colisiones y áreas de activación. La escena en juego no se modifica."
   ],
   "Wall": [
     "Parede",
