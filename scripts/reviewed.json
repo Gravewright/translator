@@ -475,6 +475,10 @@
     "Quadrados espectrais que aparecem e desaparecem lentamente, de forma alternada.",
     "Los cuadrados espectrales alternantes aparecen y desaparecen lentamente."
   ],
+  "Always visible": [
+    "Sempre visível",
+    "Siempre visible"
+  ],
   "Ambience": [
     "Ambiente",
     "Ambiencia"
@@ -646,6 +650,14 @@
   "Bar 2 · Maximum": [
     "Barra 2 · Máximo",
     "Barra 2 · Máximo"
+  ],
+  "Bar color": [
+    "Cor da barra",
+    "Color de la barra"
+  ],
+  "Bar visibility": [
+    "Visibilidade da barra",
+    "Visibilidad de la barra"
   ],
   "Basic": [
     "Básico",
@@ -2363,6 +2375,10 @@
     "Todas as missões adicionadas aqui ficam visíveis aos jogadores. Missões fixadas aparecem no topo; use as setas para definir a ordem.",
     "Cada misión añadida aquí es visible para los jugadores. Las misiones afinadas permanecen en la parte superior; utilice las flechas para establecer el orden."
   ],
+  "Everyone": [
+    "Todos",
+    "Todos"
+  ],
   "Expired": [
     "Expirado",
     "Expirado"
@@ -3038,6 +3054,10 @@
   "Invalid sheet data.": [
     "Dados da ficha inválidos.",
     "Datos de la hoja no válidos."
+  ],
+  "Invalid token appearance.": [
+    "Aparência do token inválida.",
+    "Apariencia del token no válida."
   ],
   "Invalid value.": [
     "Valor inválido.",
@@ -3867,6 +3887,10 @@
     "Afeta apenas sua visualização da névoa. Para os jogadores, ela é sempre opaca.",
     "Sólo afecta a cómo ves la niebla. Los jugadores siempre ven la niebla como sólida."
   ],
+  "Only on hover": [
+    "Somente ao passar o mouse",
+    "Solo al pasar el cursor"
+  ],
   "Only the GM can change the combat.": [
     "Somente o mestre pode mudar o combate.",
     "Sólo el GM puede cambiar el combate."
@@ -3926,6 +3950,10 @@
   "Only the owner can manage rulesets.": [
     "Somente o proprietário pode gerenciar sistemas de regras.",
     "Sólo el propietario puede gestionar los conjuntos de reglas."
+  ],
+  "Only when selected": [
+    "Somente ao selecionar",
+    "Solo al seleccionar"
   ],
   "Only you and the GM see the result": [
     "Somente você e o mestre veem o resultado",
@@ -4014,6 +4042,10 @@
   "Owner": [
     "Proprietário",
     "Propietario"
+  ],
+  "Owner and GM": [
+    "Dono e mestre",
+    "Propietario y director"
   ],
   "P": [
     "P",
@@ -5123,6 +5155,10 @@
     "Selecione jogadores que terão acesso a essa nota. O mestre sempre tem acesso.",
     "Seleccione los jugadores que tendrán acceso a esta nota. El GM siempre tiene acceso."
   ],
+  "Selected or hovered": [
+    "Ao selecionar ou passar o mouse",
+    "Al seleccionar o pasar el cursor"
+  ],
   "Send": [
     "Enviar",
     "Enviar"
@@ -5302,6 +5338,10 @@
   "Show to players": [
     "Mostrar aos jogadores",
     "Mostrar a los jugadores"
+  ],
+  "Show turn indicator": [
+    "Mostrar indicador de turno",
+    "Mostrar indicador de turno"
   ],
   "Shuffle": [
     "Embaralhar",
@@ -5922,6 +5962,10 @@
   "Token name": [
     "Nome do token",
     "Nombre"
+  ],
+  "Token name display": [
+    "Exibição do nome do token",
+    "Visualización del nombre del token"
   ],
   "Token size": [
     "Tamanho do token",

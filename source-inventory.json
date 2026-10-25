@@ -810,6 +810,9 @@
     "gravewright/maps/static/gravewright_maps/runtime/features/scene-layers/lib/shader-presets.js",
     "gravewright/maps/static/gravewright_maps/sources/sources.js"
   ],
+  "Always visible": [
+    "scripts/reviewed.json"
+  ],
   "Ambience": [
     "gravewright/table/static/gravewright_table/media-workspace.js",
     "gravewright/table/tool_messages.json"
@@ -1394,6 +1397,12 @@
     "gravewright/pdf_system/frontend/mapping.js",
     "gravewright/pdf_system/static/gravewright_pdf_system/controller.js",
     "gravewright/pdf_system/static/gravewright_pdf_system/field-actions-editor.js"
+  ],
+  "Bar color": [
+    "scripts/reviewed.json"
+  ],
+  "Bar visibility": [
+    "scripts/reviewed.json"
   ],
   "Baralhos": [
     "gravewright/table/static/gravewright_table/compendiums.js"
@@ -5208,6 +5217,9 @@
   "Every universe begins in the void.": [
     "gravewright/web/inside_messages.json"
   ],
+  "Everyone": [
+    "scripts/reviewed.json"
+  ],
   "Everyone in the campaign": [
     "gravewright/table/tool_messages.json"
   ],
@@ -6689,6 +6701,9 @@
   ],
   "Invalid sheet types": [
     "gravewright/modules/static/gravewright_modules/module-runtime.js"
+  ],
+  "Invalid token appearance.": [
+    "scripts/reviewed.json"
   ],
   "Invalid token mapping.": [
     "gravewright/pdf_system/frontend/field-actions.js",
@@ -8848,6 +8863,9 @@
   "Only game masters can open this workspace. Use document permissions to choose what players can see.": [
     "gravewright/web/jinja2/gravewright_web/campaign_manager/page.html"
   ],
+  "Only on hover": [
+    "scripts/reviewed.json"
+  ],
   "Only the GM can change the combat.": [
     "gravewright/table/tool_messages.json"
   ],
@@ -8921,6 +8939,9 @@
   ],
   "Only walls, doors and lights are imported as editable objects. Other scene content remains in the scene.": [
     "gravewright/maps/static/gravewright_maps/builder/workspace.js"
+  ],
+  "Only when selected": [
+    "scripts/reviewed.json"
   ],
   "Only you and the GM see the result": [
     "gravewright/table/tool_messages.json"
@@ -9124,6 +9145,9 @@
   ],
   "Owner (always)": [
     "gravewright/table/static/gravewright_table/permissions.js"
+  ],
+  "Owner and GM": [
+    "scripts/reviewed.json"
   ],
   "PATCH": [
     "gravewright/maps/frontend/shared/api/http-client.js",
@@ -11934,6 +11958,9 @@
   "Selected items": [
     "gravewright/table/tool_messages.json"
   ],
+  "Selected or hovered": [
+    "scripts/reviewed.json"
+  ],
   "Selected players": [
     "gravewright/table/tool_messages.json"
   ],
@@ -12268,6 +12295,9 @@
     "gravewright/maps/static/gravewright_maps/journal-pins.js",
     "gravewright/table/static/gravewright_table/combat-panel.js",
     "gravewright/table/tool_messages.json"
+  ],
+  "Show turn indicator": [
+    "scripts/reviewed.json"
   ],
   "Show wall artwork": [
     "gravewright/maps/static/gravewright_maps/builder/inspector-controller.js"
@@ -13808,6 +13838,9 @@
   ],
   "Token name": [
     "gravewright/pdf_system/jinja2/gravewright_pdf_system/sheet.html"
+  ],
+  "Token name display": [
+    "scripts/reviewed.json"
   ],
   "Token on scene": [
     "gravewright/web/static/gravewright_web/campaign-manager/preparation.js"

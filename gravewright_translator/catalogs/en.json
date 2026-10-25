@@ -3624,5 +3624,16 @@
   "A selected player cannot access this scene.": "A selected player cannot access this scene.",
   "Double-click the object to edit its states and actions.": "Double-click the object to edit its states and actions.",
   "Invalid imported map surface.": "Invalid imported map surface.",
-  "Only interactive images can have a blueprint.": "Only interactive images can have a blueprint."
+  "Only interactive images can have a blueprint.": "Only interactive images can have a blueprint.",
+  "Always visible": "Always visible",
+  "Bar color": "Bar color",
+  "Bar visibility": "Bar visibility",
+  "Invalid token appearance.": "Invalid token appearance.",
+  "Only on hover": "Only on hover",
+  "Only when selected": "Only when selected",
+  "Owner and GM": "Owner and GM",
+  "Selected or hovered": "Selected or hovered",
+  "Show turn indicator": "Show turn indicator",
+  "Token name display": "Token name display",
+  "Everyone": "Everyone"
 }
