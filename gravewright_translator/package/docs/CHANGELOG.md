@@ -1,5 +1,16 @@
 # Histórico
 
+## 0.1.4
+
+- 42 novas chaves por idioma, totalizando 3.626 entradas em inglês, português e espanhol.
+- Textos para mapas vazios, ativação por jogador, títulos de medições, áreas de
+  Objetos Inteligentes, preferências de ponteiros e atalhos configuráveis.
+- Preservação de parâmetros nomeados e numéricos e correção do acento em célula.
+- Os nomes e títulos autorais são preservados pela integração correspondente no host.
+
+As fontes desta versão estão preparadas para build; assinatura e publicação do
+pacote no Marketplace continuam sendo etapas separadas.
+
 ## 0.1.3
 
 - 572 entradas adicionadas aos catálogos de inglês, português e espanhol, agora

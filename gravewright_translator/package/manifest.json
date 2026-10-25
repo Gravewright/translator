@@ -1,7 +1,7 @@
 {
   "id": "gravewright.translator",
   "name": "Translator",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Translation catalogs for Gravewright VTT with reviewed Portuguese and Spanish interfaces. Includes documentation and examples for module-local translations through the host i18n API.",
   "author": "Gravewright",
   "license": "MIT",

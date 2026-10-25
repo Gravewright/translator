@@ -1,5 +1,23 @@
 # Validation
 
+## 0.1.4 — source validation, 2026-10-25
+
+- All four authoring tests passed, including deterministic byte-identical builds,
+  extraction checks and coverage of the new table controls and parameters.
+- Python project, application and manifest versions match at `0.1.4`.
+- Each language contains 3,626 entries: 42 additions over 0.1.3, with matching
+  source keys and placeholders. The Portuguese cell caption's accent is corrected.
+- The host's translation audit returned no errors and no unmatched explicit calls.
+- Playwright installed these catalogs in an isolated host fixture and verified
+  English, Brazilian Portuguese and Spanish across pointer preferences, keyboard
+  shortcuts, measurement titles, empty maps, scene audiences and Smart Object areas.
+- Authored names and titles stayed unchanged; disabling and re-enabling the
+  language package preserved the account's locale choice and English fallback.
+- The source inventory was regenerated from the corresponding host sources.
+
+These checks cover source changes and local fixture packages. They do not claim
+Marketplace signing or publication of a 0.1.4 release asset.
+
 ## 0.1.3 — local release validation, 2026-10-23
 
 - All three authoring tests passed, including two byte-identical deterministic
