@@ -374,6 +374,9 @@
   "Add a presence region to this map first.": [
     "gravewright/maps/static/gravewright_maps/builder/blueprint-editor.js"
   ],
+  "Add a shader to this map first.": [
+    "scripts/reviewed.json"
+  ],
   "Add a sound to this campaign first.": [
     "gravewright/maps/static/gravewright_maps/builder/blueprint-editor.js"
   ],
@@ -1924,6 +1927,9 @@
   "Change a dynamic surface material or native object image.": [
     "gravewright/maps/static/gravewright_maps/builder/blueprint-editor.js"
   ],
+  "Change a shader parameter when this behavior runs.": [
+    "scripts/reviewed.json"
+  ],
   "Change color": [
     "gravewright/table/tool_messages.json"
   ],
@@ -2225,6 +2231,12 @@
   "Choose a session plan or create a new one.": [
     "gravewright/web/static/gravewright_web/campaign-manager/preparation.js"
   ],
+  "Choose a shader from this map.": [
+    "scripts/reviewed.json"
+  ],
+  "Choose a shader from this scene.": [
+    "scripts/reviewed.json"
+  ],
   "Choose a snapshot name between 2 and 120 characters.": [
     "gravewright/table/tool_messages.json"
   ],
@@ -2479,6 +2491,9 @@
   ],
   "Click a floor on the active layer to sample its material.": [
     "gravewright/maps/static/gravewright_maps/builder/workspace.js"
+  ],
+  "Click a shader on the map. Esc cancels.": [
+    "scripts/reviewed.json"
   ],
   "Click again to listen to the preview.": [
     "gravewright/maps/frontend/features/audio/ui/AudioWorkspace.native.js",
@@ -3049,6 +3064,9 @@
   "Control mind-map topic": [
     "gravewright/maps/static/gravewright_maps/builder/blueprint-model.js",
     "gravewright/maps/static/gravewright_maps/builder/run-format.js"
+  ],
+  "Control shader": [
+    "scripts/reviewed.json"
   ],
   "Control sound": [
     "gravewright/maps/static/gravewright_maps/builder/blueprint-model.js",
@@ -6721,6 +6739,12 @@
   ],
   "Invalid region filters.": [
     "gravewright/maps/static/gravewright_maps/region-filters.js"
+  ],
+  "Invalid shader control property.": [
+    "scripts/reviewed.json"
+  ],
+  "Invalid shader control value.": [
+    "scripts/reviewed.json"
   ],
   "Invalid shader source.": [
     "gravewright/maps/frontend/native/builder-editor-model.js",

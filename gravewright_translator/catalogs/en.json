@@ -3678,5 +3678,13 @@
   "Invalid object preset.": "Invalid object preset.",
   "Object preset not found.": "Object preset not found.",
   "Object library limit exceeded.": "Object library limit exceeded.",
-  "Invalid test position.": "Invalid test position."
+  "Invalid test position.": "Invalid test position.",
+  "Control shader": "Control shader",
+  "Change a shader parameter when this behavior runs.": "Change a shader parameter when this behavior runs.",
+  "Add a shader to this map first.": "Add a shader to this map first.",
+  "Choose a shader from this map.": "Choose a shader from this map.",
+  "Choose a shader from this scene.": "Choose a shader from this scene.",
+  "Invalid shader control property.": "Invalid shader control property.",
+  "Invalid shader control value.": "Invalid shader control value.",
+  "Click a shader on the map. Esc cancels.": "Click a shader on the map. Esc cancels."
 }

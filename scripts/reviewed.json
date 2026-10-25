@@ -203,6 +203,10 @@
     "Adicione uma missão ao quadro para publicá-la aqui.",
     "Añade una búsqueda al tablero para publicarlo aquí."
   ],
+  "Add a shader to this map first.": [
+    "Adicione um shader a este mapa primeiro.",
+    "Primero añade un shader a este mapa."
+  ],
   "Add actor": [
     "Adicionar personagem",
     "Añadir actor"
@@ -895,6 +899,10 @@
     "Centralizar verticalmente",
     "Centrar verticalmente"
   ],
+  "Change a shader parameter when this behavior runs.": [
+    "Altere um parâmetro do shader quando este comportamento for executado.",
+    "Cambia un parámetro del shader cuando se ejecute este comportamiento."
+  ],
   "Change color": [
     "Alterar cor",
     "Cambiar de color"
@@ -994,6 +1002,14 @@
   "Choose a quest...": [
     "Selecionar missão…",
     "Elige una búsqueda..."
+  ],
+  "Choose a shader from this map.": [
+    "Escolha um shader deste mapa.",
+    "Elige un shader de este mapa."
+  ],
+  "Choose a shader from this scene.": [
+    "Escolha um shader desta cena.",
+    "Elige un shader de esta escena."
   ],
   "Choose a snapshot name between 2 and 120 characters.": [
     "Escolha um nome para o ponto de restauração com 2 a 120 caracteres.",
@@ -1118,6 +1134,10 @@
   "Clear walls": [
     "Limpar paredes",
     "Muros despejados"
+  ],
+  "Click a shader on the map. Esc cancels.": [
+    "Clique em um shader no mapa. Esc cancela.",
+    "Haz clic en un shader del mapa. Esc cancela."
   ],
   "Click and drag on the map to position the sound and define its radius. Press Esc to cancel.": [
     "Clique e arraste no mapa para posicionar o som e definir seu raio. Pressione Esc para cancelar.",
@@ -1358,6 +1378,10 @@
   "Continue to table": [
     "Ir para a mesa",
     "Continuar a la mesa"
+  ],
+  "Control shader": [
+    "Controlar shader",
+    "Controlar shader"
   ],
   "Control what each role can do inside this table.": [
     "Controle o que cada função pode fazer dentro desta mesa.",
@@ -3126,6 +3150,14 @@
   "Invalid package URL": [
     "URL de pacote inválida",
     "URL del paquete no válido"
+  ],
+  "Invalid shader control property.": [
+    "Propriedade de controle do shader inválida.",
+    "Propiedad de control del shader no válida."
+  ],
+  "Invalid shader control value.": [
+    "Valor de controle do shader inválido.",
+    "Valor de control del shader no válido."
   ],
   "Invalid sheet data.": [
     "Dados da ficha inválidos.",
