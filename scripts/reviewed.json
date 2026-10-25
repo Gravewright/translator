@@ -7019,6 +7019,10 @@
     "{count} resultados separados no chat, sem somá-los.",
     "{count} resultados separados en el chat, sin sumarlos."
   ],
+  "Test actor": [
+    "Ator de teste",
+    "Actor de prueba"
+  ],
   "{name} is ready.": [
     "{name} está pronto.",
     "{name} está listo."

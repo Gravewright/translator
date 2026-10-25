@@ -2,14 +2,17 @@
 
 O Translator fornece catálogos de tradução para o Gravewright VTT. Inglês é o idioma
 de origem; a versão 0.1.4 inclui português do Brasil (`pt-BR`) e espanhol (`es`), com
-3.626 entradas por idioma. Os idiomas disponíveis podem ser
+3.689 entradas por idioma. Os idiomas disponíveis podem ser
 ampliados por pacotes de idioma compatíveis com o host.
 
-Esta versão adiciona **42 entradas por idioma** para mapas vazios, ativação de
+Esta versão adiciona **105 entradas por idioma** para mapas vazios, ativação de
 cenas por jogador, títulos de medições, áreas circulares de Objetos Inteligentes,
-ponteiros compartilhados e atalhos configuráveis. Preserva os marcadores nomeados
-e numéricos e corrige o acento no rótulo de célula em português.
-Essas alterações de código não publicam um pacote assinado no Marketplace.
+ponteiros compartilhados, atalhos configuráveis, aparência de tokens, ferramentas
+do Map Builder, ensaio como jogador e controle de shaders por Objetos Inteligentes.
+Preserva os marcadores nomeados e numéricos e corrige o acento no rótulo de célula
+em português. Os novos controles exigem as funcionalidades correspondentes do
+Gravewright VTT 0.3.3; instalar o pacote de idioma não adiciona essas funções a
+versões anteriores do host.
 Veja [o histórico](CHANGELOG.md).
 
 ## Documentação

@@ -1,5 +1,26 @@
 # Validation
 
+## 0.1.4 — release candidate validation, 2026-10-25
+
+- All four authoring tests passed, including byte-identical deterministic builds,
+  matching project/application/manifest versions and packaged documentation links.
+- All three catalogs contain 3,689 matching keys: 105 additions over 0.1.3.
+  Every translation preserves the source's named and numbered parameters.
+- The host translation audit returned no errors and no unmatched explicit calls.
+  The final audit added the existing reviewed Portuguese and Spanish translations
+  for the player rehearsal's Test actor label.
+- All six host JavaScript i18n/localization tests passed for catalog isolation,
+  cleanup, fallback, parameter validation and native startup localization.
+- Local ZIP SHA-256:
+  `1eecd263b8a18aea194fc3d454e998a0eccd046e2b614c01d495688981acc2fe`.
+- The corresponding host's Smart Object shader-control Playwright checks passed
+  in English, Brazilian Portuguese and Spanish before release preparation.
+
+These checks cover the candidate source and local package. Official signing and
+publication use the Marketplace workflow with the exact reviewed source commit;
+the workflow's provenance and signed catalog identify the final public artifact.
+The new host controls are provided by Gravewright VTT 0.3.3, not by this package.
+
 ## 0.1.4 — source validation, 2026-10-25
 
 - All four authoring tests passed, including deterministic byte-identical builds,

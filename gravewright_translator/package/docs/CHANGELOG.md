@@ -2,14 +2,17 @@
 
 ## 0.1.4
 
-- 42 novas chaves por idioma, totalizando 3.626 entradas em inglês, português e espanhol.
+- 105 novas chaves por idioma, totalizando 3.689 entradas em inglês, português e espanhol.
 - Textos para mapas vazios, ativação por jogador, títulos de medições, áreas de
   Objetos Inteligentes, preferências de ponteiros e atalhos configuráveis.
+- Traduções para aparência de tokens, ferramentas de produtividade do Map Builder,
+  ensaio como jogador e controle de parâmetros de shaders nos Blueprints.
 - Preservação de parâmetros nomeados e numéricos e correção do acento em célula.
 - Os nomes e títulos autorais são preservados pela integração correspondente no host.
 
-As fontes desta versão estão preparadas para build; assinatura e publicação do
-pacote no Marketplace continuam sendo etapas separadas.
+Os novos controles usam as funcionalidades correspondentes do Gravewright VTT
+0.3.3. O pacote mantém a compatibilidade com o SDK `>=1.0.0 <2.0.0`; instalar
+traduções não adiciona funcionalidades a versões anteriores do host.
 
 ## 0.1.3
 

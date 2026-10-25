@@ -1,7 +1,7 @@
 # Translator 0.1.4
 
 Translator supplies installation-wide language catalogs for Gravewright VTT.
-English is the source language; version 0.1.4 contains 3,626 catalog
+English is the source language; version 0.1.4 contains 3,689 catalog
 entries for Brazilian Portuguese and Spanish. Users choose their personal interface language
 inside a table's **Settings → Preferences**. The choice is saved to their account;
 switching language reloads the page while preserving the table URL.
@@ -13,12 +13,13 @@ required at runtime.
 
 ## Changes in 0.1.4
 
-The catalogs add 42 source keys per language for empty maps, selective scene
+The catalogs add 105 source keys per language for empty maps, selective scene
 activation, measurement titles, circular Smart Object areas, shared mouse
-pointers and configurable keyboard shortcuts. Named and numbered parameters
+pointers, configurable keyboard shortcuts, token appearance, Map Builder tools,
+player rehearsal and Smart Object shader controls. Named and numbered parameters
 remain unchanged, and the Portuguese cell caption has its accent restored.
-These source updates do not publish a signed Marketplace package; installation
-continues to use the latest signed release until 0.1.4 is signed and published.
+The new controls require the corresponding host features in Gravewright VTT
+0.3.3; installing the language package does not add those features to older hosts.
 
 ## Changes in 0.1.3
 

@@ -15921,6 +15921,9 @@
   "×": [
     "gravewright/maps/jinja2/gravewright_maps/builder.html"
   ],
+  "Test actor": [
+    "gravewright/maps/static/gravewright_maps/builder/player-test.js"
+  ],
   "— none —": [
     "gravewright/pdf_system/static/gravewright_pdf_system/sheet.js"
   ]

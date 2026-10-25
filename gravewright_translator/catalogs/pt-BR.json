@@ -3686,5 +3686,6 @@
   "Choose a shader from this scene.": "Escolha um shader desta cena.",
   "Invalid shader control property.": "Propriedade de controle do shader inválida.",
   "Invalid shader control value.": "Valor de controle do shader inválido.",
-  "Click a shader on the map. Esc cancels.": "Clique em um shader no mapa. Esc cancela."
+  "Click a shader on the map. Esc cancels.": "Clique em um shader no mapa. Esc cancela.",
+  "Test actor": "Ator de teste"
 }
